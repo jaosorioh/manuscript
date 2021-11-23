@@ -1,0 +1,38 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table of Contents}{v}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{vii}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{viii}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{ix}{chapter*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introduction}{1}{chapter*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\unhbox \voidb@x \newline The Standard Model of Particle Physics}{2}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}QCD}{4}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}$B^0_s$}{4}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}$B^0_s \to J/\psi \phi $}{4}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}\unhbox \voidb@x \newline The Large Hadron Collider}{5}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}The CMS Detector}{6}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}CMS coordinate system}{7}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\unhbox \voidb@x \newline Heading of Chapter 3 to show in TOC}{8}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\unhbox \voidb@x \newline Heading of Chapter 4 to show in TOC}{9}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\unhbox \voidb@x \newline Heading of Chapter 5 to show in TOC}{10}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\unhbox \voidb@x \newline Heading of Chapter 6 to show in TOC}{11}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}\unhbox \voidb@x \newline Conclusion}{12}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{13}{chapter.7}%
+\contentsfinish 
