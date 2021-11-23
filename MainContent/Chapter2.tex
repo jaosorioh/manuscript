@@ -14,15 +14,46 @@ The results and analysis presented in later chapters are based on CMS. Therefore
 \begin{figure}[htp!]
 	\centering
 	\includegraphics[scale=0.3]{MainContent/Figs/LHC.png}
-	\caption{LHC experimental chain. The yellow dots represent the four main experiments. This figure was retrieved from }
+	\caption{LHC experimental chain. The yellow dots represent the four main experiments. Retrieved from }
 	\label{fig:LHC}
 \end{figure}
 
-\section{The CMS Detector}
+\section{The CMS detector}
 
-CMS is a general purpose detector used to reconstruct the decay products in proton and heavy-ion collisions at high energies. It can detect nearly any particle, specially muons, with high precision. CMS is located in a cavern about 100 m underground near Cessy, France. It has a cylindrical geometry, with a full length of 21.5 m and a diameter of 15 m. With a total weight of 12500 t, it is the heaviest detector in the LHC. CMS is operated by a large collaboration of members worldwide, consisting of over 4000 particle physicists, engineers, computer scientists, technicians, and students from around 200 institutes and universities from more than 40 countries \cite{cms_collab}.
+CMS is a general purpose detector used to reconstruct the decay products in proton and heavy-ion collisions at high energies. It can detect nearly any particle, especially muons, with high precision. CMS is located in a cavern about 100 m underground near Cessy, France. It has a cylindrical geometry, with a full length of 21.5 m and a diameter of 15 m. With a total weight of 12500 t, it is the heaviest detector in the LHC. CMS is operated by a large collaboration of members worldwide, consisting of over 4000 particle physicists, engineers, computer scientists, technicians, and students from around 200 institutes and universities from more than 40 countries \cite{cms_collab}. The University of Antioquia is one of the collaborating universities through the Phenomenology and Fundamental Interactions Group (GFIF).
 
-The main feature of CMS is a superconducting solenoid able to produce a internal, uniform 4T magnetic field. Inside the solenoid, there is a tracking system  Before explaining with more detail the internal parts of the detector, the coordinate system will be introduced in the next subsection. 
+The physical structure of the detector consists of a superconducting solenoid able to produce a internal, uniform 4T magnetic field. Inside the solenoid, there is a tracking system, also known as tracker, surrounded by a calorimetry system consisting of the Electromagnetic Calorimeter (ECAL) and the Hadron Calorimeter (HCAL). Outside the solenoid, there is a muon detector chamber. Fig \ref{fig:CMS_structure}  shows a schematic view of the detector.
 
-\subsection{CMS coordinate system}
-Called the rapidity and pseudorapidity.
+\begin{figure}[htp!]
+	\centering
+	\includegraphics[scale=0.2]{MainContent/Figs/cms_structure.png}
+	\caption{CMS internal structure with its main sub-systems. Retrieved from }
+	\label{fig:CMS_structure}
+\end{figure}
+
+
+Before delving deeper into the detector internal components, the coordinate system will be introduced in the following subsection.
+
+\subsection{The coordinate system}
+CMS uses a right-handed Cartesian coordinate system, with the origin at the center of the detector. The $x$-axis points towards the center of LHC, the $y$-axis points upwards, and the $z$-axis points in the counterclockwise direction of the beams. The $x-y$ plane is called the transverse plane and is perpendicular to the beam axis. In this plane, two quantities can be defined: the azimuthal angle $\phi$ with respect to the x-axis and the particle transverse momentum, $p_T = \sqrt{p_x^2 + p_y^2}$. The polar angle $\theta$, on the other hand, is defined in the $z-y$ plane and measured from the $z$-axis. Fig illustrates the coordinate system.
+
+In this coordinate system, one can define two relativistic invariant quantities, the particle rapidity,
+
+\begin{equation}
+y = \frac{1}{2}\ln\left(\frac{E+p_z}{E-p_z}\right)
+\end{equation}
+
+and the pseudo-rapidity,
+
+\begin{equation}
+\eta = -\frac{1}{2}\ln\left(\frac{\theta}{2}\right)
+\end{equation}
+
+It is important to mention that the quantities $p_T$ and $\eta$ are of special interest in the results presented in Chapter 4.
+
+\subsection{Superconducting Solenoid}
+Located at its center, the superconducting solenoid is the key part of the CMS detector. The solenoid is made of four layers of Nb-Ti coils and has a length of 12.5 m and a diameter of 6 m. It has an working temperature of 4.5K and it can produce a constant magnetic field inside of 4T, however, it is operated at 3.8T. A return yoke made of iron reduces the magnetic field outside the solenoid to about 2T. The magnet stores a total energy of 2.6 GJ. The magnetic field is used to bend the trajectory of the charged particles after the collision, thus allowing to measure their transversal momentum, $p_T$, and charge sign. The stronger the magnetic field, the larger the bending, and, therefore, more precise measurements can be made.
+
+\subsection{The tracker}
+\subsection{Calorimetry system}
+\subsection{Muon detector}
