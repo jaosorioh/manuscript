@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  23 NOV 2021 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  25 NOV 2021 20:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -770,29 +770,47 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-\@quotelevel=\count439
-\@quotereset=\count440
+(C:\Users\alexo\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count439
+\output=\toks44
+\linenoprevgraf=\count440
+\linenumbersep=\dimen193
+\linenumberwidth=\dimen194
+\c@linenumber=\count441
+\c@pagewiselinenumber=\count442
+\c@LN@truepage=\count443
+\c@internallinenumber=\count444
+\c@internallinenumbers=\count445
+\quotelinenumbersep=\dimen195
+\bframerule=\dimen196
+\bframesep=\dimen197
+\bframebox=\box61
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\@quotelevel=\count446
+\@quotereset=\count447
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -830,17 +848,17 @@ LaTeX Font Info:    ... okay on input line 54.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count441
-\scratchdimen=\dimen193
-\scratchbox=\box61
-\nofMPsegments=\count442
-\nofMParguments=\count443
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count444
-\MPscratchDim=\dimen194
-\MPnumerator=\count445
-\makeMPintoPDFobject=\count446
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count448
+\scratchdimen=\dimen198
+\scratchbox=\box62
+\nofMPsegments=\count449
+\nofMParguments=\count450
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count451
+\MPscratchDim=\dimen199
+\MPnumerator=\count452
+\makeMPintoPDFobject=\count453
+\everyMPtoPDFconversion=\toks46
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -849,7 +867,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 56.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -861,11 +879,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count447
+\c@section@level=\count454
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -899,9 +917,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 54.
-Package biblatex Info: Reference segment=0 on input line 54.
-\c@lstlisting=\count448
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+\c@lstlisting=\count455
 
 (Additional/TitlePage.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
@@ -996,7 +1014,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 dentifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144 \clearpage
+l.147 \clearpage
                  [1
 
 
@@ -1029,12 +1047,21 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./MainContent/Figs/SM-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<MainContent/Figs/SM-eps-converted-to.pdf, id=189, 1210.5225pt x 927.465pt>
+<MainContent/Figs/SM-eps-converted-to.pdf, id=190, 1210.5225pt x 927.465pt>
 File: MainContent/Figs/SM-eps-converted-to.pdf Graphic file (type pdf)
 <use MainContent/Figs/SM-eps-converted-to.pdf>
 Package pdftex.def Info: MainContent/Figs/SM-eps-converted-to.pdf  used on inpu
 t line 15.
 (pdftex.def)             Requested size: 411.5722pt x 315.33392pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[3 <./MainContent/Figs/SM-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 21.
@@ -1088,15 +1115,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[3 <./MainContent/Figs/SM-eps-converted-to.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
 [4]
 Chapter 2.
 
@@ -1106,10 +1124,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [5
 
 ]
-<MainContent/Figs/LHC.png, id=215, 1284.8pt x 905.3825pt>
+<MainContent/Figs/LHC.png, id=216, 1284.8pt x 905.3825pt>
 File: MainContent/Figs/LHC.png Graphic file (type png)
 <use MainContent/Figs/LHC.png>
-Package pdftex.def Info: MainContent/Figs/LHC.png  used on input line 16.
+Package pdftex.def Info: MainContent/Figs/LHC.png  used on input line 17.
 (pdftex.def)             Requested size: 385.44298pt x 271.61684pt.
 
 
@@ -1121,14 +1139,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [6 <./MainContent/Figs/LHC.png>]
-<MainContent/Figs/cms_structure.png, id=224, 2392.43813pt x 1690.06406pt>
+<MainContent/Figs/cms_structure.png, id=225, 2392.43813pt x 1690.06406pt>
 File: MainContent/Figs/cms_structure.png Graphic file (type png)
 <use MainContent/Figs/cms_structure.png>
 Package pdftex.def Info: MainContent/Figs/cms_structure.png  used on input line
- 29.
+ 30.
 (pdftex.def)             Requested size: 478.47916pt x 338.00682pt.
 
-Overfull \hbox (8.72414pt too wide) in paragraph at lines 29--30
+Overfull \hbox (8.72414pt too wide) in paragraph at lines 30--31
  [][] 
  []
 
@@ -1141,11 +1159,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [7 <./MainContent/Figs/cms_structure.png>]
-<MainContent/Figs/cms_coordinate_system.png, id=232, 260.4129pt x 127.9179pt>
+<MainContent/Figs/cms_coordinate_system.png, id=233, 260.4129pt x 127.9179pt>
 File: MainContent/Figs/cms_coordinate_system.png Graphic file (type png)
 <use MainContent/Figs/cms_coordinate_system.png>
 Package pdftex.def Info: MainContent/Figs/cms_coordinate_system.png  used on in
-put line 43.
+put line 44.
 (pdftex.def)             Requested size: 260.41225pt x 127.91757pt.
 
 
@@ -1216,13 +1234,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21545 strings out of 478864
- 353700 string characters out of 2858517
- 976865 words of memory out of 3000000
- 39055 multiletter control sequences out of 15000+600000
- 422872 words of font info for 98 fonts, out of 8000000 for 9000
+ 21756 strings out of 478864
+ 356921 string characters out of 2858517
+ 979543 words of memory out of 3000000
+ 39261 multiletter control sequences out of 15000+600000
+ 423172 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,81p,1847b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,81p,1847b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/ty
@@ -1231,12 +1249,13 @@ msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (24 pages, 4280129 bytes).
+type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (24 pages, 4291357 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
