@@ -17,6 +17,29 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{danilov2020measurement}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=DV}{%
+         family={Danilov},
+         familyi={D\bibinitperiod},
+         given={Vladyslav},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DV1}
+    \strng{fullhash}{DV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The measurement of W$\pm$boson charge asymmetry at√ s= 13
+  TeV with the CMS detector using the 2015 data set and a global QCD analysis
+  on this asymmetry}
+    \list{institution}{1}{%
+      {Staats-und Universit{\"a}tsbibliothek Hamburg Carl von Ossietzky}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
   \entry{vovchenko2019canonical}{article}{}
     \name{author}{3}{}{%
       {{hash=VV}{%

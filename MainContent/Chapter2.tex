@@ -6,7 +6,7 @@ The Large Hadron Collider (LHC) is the largest particle collider in the world. I
 The initial goal of the LHC was to detect the Higgs Boson. For this purpose, it began operations in 2008, but due to a major incident, known as "quench", it was shut down until the end of 2009. Finally, the Higgs boson was detected in 2012. On top of that, many other predictions of the SM have been confirmed using the LHC experimental infrastructure, and it has also been possible to study the phenomena the SM cannot explain, as described in the previous chapter.
 %https://www.universetoday.com/21895/first-images-emerge-of-damage-to-the-lhc/
 
-The LHC is able to produce proton-proton (p+p) collisions at energies up to 7 TeV and lead ions (Pb-Pb) collisions at 2.76 TeV. p-Pb collisions are possible at several energies \cite{vovchenko2019canonical}  including the value of 8.16 TeV, which is of special interest in this manuscript. For such collisions, two beams of the target particles are generated using the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) and then accelerated in opposite directions at energies up to 460 GeV.
+The LHC is able to produce proton-proton (p+p) collisions at energies up to 7 TeV and lead ions (Pb-Pb) collisions at 2.76 TeV. p-Pb collisions are possible at several energies \cite{vovchenko2019canonical}  including the value of 8.16 TeV, which is of special interest in this manuscript. To produce such collisions, two beams of the target particles are generated using the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) and then accelerated in opposite directions at energies up to 460 GeV.
 
 There are four points where collisions occur, and there is a detector associated with each point, as shown in fig \ref{fig:LHC}. Two of these detectors are for general purposes: A Toroidal LHC Apparatus (ATLAS) and Compact Muon Solenoid (CMS). The other two are the LHC beauty detector (LHCb) used to study heavy-flavor physics and indirect CP violations in b-mesons, and A Large Ion Collider Experiment (ALICE) used for heavy-ion collisions.
 
@@ -15,7 +15,7 @@ The results and analysis presented in later chapters are based on CMS. Therefore
 \begin{figure}[htp!]
 	\centering
 	\includegraphics[scale=0.3]{MainContent/Figs/LHC.png}
-	\caption{LHC experimental chain. The yellow dots represent the four main experiments. Retrieved from }
+	\caption{LHC experimental chain. The yellow dots represent the four main experiments. Retrieved from \cite{nobrega2013lhc}}
 	\label{fig:LHC}
 \end{figure}
 
@@ -28,7 +28,7 @@ The physical structure of the detector consists of a superconducting solenoid ab
 \begin{figure}[htp!]
 	\centering
 	\includegraphics[scale=0.2]{MainContent/Figs/cms_structure.png}
-	\caption{CMS internal structure with its main sub-systems. Retrieved from }
+	\caption{CMS internal structure with its main sub-systems. Retrieved from \cite{sanchez2020search}.}
 	\label{fig:CMS_structure}
 \end{figure}
 
@@ -36,13 +36,13 @@ The physical structure of the detector consists of a superconducting solenoid ab
 Before delving deeper into the detector internal components, the coordinate system will be introduced in the following subsection.
 
 \subsection{The coordinate system}
-CMS uses a right-handed Cartesian coordinate system, with the origin at the center of the detector. The $x$-axis points towards the center of LHC, the $y$-axis points upwards, and the $z$-axis points in the counterclockwise direction of the beams. The $x-y$ plane is called the transverse plane and is perpendicular to the beam axis. In this plane, two quantities can be defined: the azimuthal angle $\phi$ with respect to the x-axis and the particle transverse momentum, $p_T = \sqrt{p_x^2 + p_y^2}$. The polar angle $\theta$, on the other hand, is defined in the $z-y$ plane and measured from the $z$-axis. Fig \ref{fig:cms_coordinate_system} illustrates the coordinate system.
+CMS uses a right-handed Cartesian coordinate system, with the origin at the center of the detector. The $x$-axis points towards the center of LHC, the $y$-axis points upwards, and the $z$-axis points in the counterclockwise direction of the beam. The $x-y$ plane is called the transverse plane and is perpendicular to the beam axis. In this plane, two quantities can be defined: the azimuthal angle $\phi$ with respect to the x-axis and the particle transverse momentum, $p_T = \sqrt{p_x^2 + p_y^2}$. The polar angle $\theta$, on the other hand, is defined in the $z-y$ plane and measured from the $z$-axis. Fig \ref{fig:cms_coordinate_system} illustrates the coordinate system.
 
 
 \begin{figure}[htp!]
 	\centering
 	\includegraphics{MainContent/Figs/cms_coordinate_system.png}
-	\caption{Illustration of the CMS coordinate system. Retrieved from }
+	\caption{Illustration of the CMS coordinate system. Retrieved from \cite{bonanomi2021response}.}
 	\label{fig:cms_coordinate_system}
 \end{figure}
 
@@ -61,7 +61,10 @@ and the pseudo-rapidity,
 It is important to mention that the quantities $p_T$ and $\eta$ are considered in the results presented in Chapter 4.
 
 \subsection{Superconducting Solenoid}
-Located at its center, the superconducting solenoid is the key part of the CMS detector. The solenoid is made of four layers of Nb-Ti coils and has a length of 12.5 m and a diameter of 6 m. It has a working temperature of 4.5K and it can produce a constant magnetic field inside of 4T, however, it is operated at 3.8T. A return yoke made of iron reduces the magnetic field outside the solenoid to about 2T. The magnet stores a total energy of 2.6 GJ. The magnetic field is used to bend the trajectory of the charged particles after the collision, thus allowing to measure their transversal momentum, $p_T$, and charge sign. The stronger the magnetic field, the larger the bending, and, therefore, more precise measurements can be made.
+Located at its center, the superconducting solenoid is the key part of the CMS detector. The solenoid is made up of four layers of Nb-Ti coils and has a length of 12.5 m and a diameter of 6 m. It has a working temperature of 4.5K and it can produce a constant magnetic field inside of 4T, however, it is operated at 3.8T. A return yoke made of iron reduces the magnetic field outside the solenoid to about 2T. The magnet stores a total energy of 2.6 GJ. The magnetic field is used to bend the trajectory of the charged particles after the collision, thus allowing to measure their transversal momentum, $p_T$, and charge sign. The stronger the magnetic field, the larger the bending, and, hence, more precise measurements can be made.
 \subsection{The tracker}
+The tracker, which is placed at the interaction point, is made up of two parts: a silicon pixel detector in the center and a silicon strip detector around it, both of which are made of superconducting technology but have different sizes and granularities.\cite{sanchez2020search}. The pixel detector is very granular and it consists of 66 million pixels spaced out over a radius of 10 cm, each pixel has a dimension of $100 \times 150 \ \mu \text{m}^2$. The strip detector, with a length of 5.5 m and a diameter of 2.4 m, contains 9.6 million of strips. 
+
+An electron-hole pair is formed in the material when a charged particle passes through the tracker. This generates an electrical signal, which is amplified and used to reconstruct the trajectory or tracks with a 98$\%$ percent efficiency and a precision of about $10 \ \mu$m in the range $|\eta| < 2.5$. The momentum of a particle is calculated using the trajectory. It is also possible to predict the location of the secondary vertices, which are where the decays occur.
 \subsection{Calorimetry system}
 \subsection{Muon detector}
