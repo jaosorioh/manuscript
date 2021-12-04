@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  29 NOV 2021 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  3 DEC 2021 15:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -1224,7 +1224,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Citation 'sanchez2020search' on page 9 undefined on input line 6
 6.
 
-) (MainContent/Chapter3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1233,7 +1232,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[9]
+[9]) (MainContent/Chapter3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1334,7 +1333,7 @@ type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 4296191 bytes).
+Output written on main.pdf (25 pages, 4297413 bytes).
 PDF statistics:
  356 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
