@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  4 DEC 2021 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  5 DEC 2021 23:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1040,6 +1040,9 @@ Overfull \hbox (6.81801pt too wide) in paragraph at lines 1--1
 \OT1/cmr/bx/n/24.88 The Stan-dard Model of Par-ti-cle Physics| 
  []
 
+
+LaTeX Warning: Citation 'stiller2016full' on page 2 undefined on input line 3.
+
 [2
 
 
@@ -1232,7 +1235,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[9]) (MainContent/Chapter3.tex
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1241,13 +1244,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[10]
+[10]) (MainContent/Chapter3.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[11]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter4.tex [11
+) (MainContent/Chapter4.tex [12
 
 ]
 Chapter 4.
@@ -1255,7 +1267,7 @@ Chapter 4.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter5.tex [12
+) (MainContent/Chapter5.tex [13
 
 ]
 Chapter 5.
@@ -1263,7 +1275,7 @@ Chapter 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter6.tex [13
+) (MainContent/Chapter6.tex [14
 
 ]
 Chapter 6.
@@ -1271,7 +1283,7 @@ Chapter 6.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter7.tex [14
+) (MainContent/Chapter7.tex [15
 
 ]
 Chapter 7.
@@ -1279,7 +1291,7 @@ Chapter 7.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [15
+) [16
 
 ]
 
@@ -1295,7 +1307,7 @@ l.180 	\printbibliography[title={Bibliography}]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[16
+[17
 
 
 ] (main.aux)
@@ -1314,9 +1326,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21765 strings out of 478864
- 357166 string characters out of 2858517
- 980816 words of memory out of 3000000
+ 21766 strings out of 478864
+ 357173 string characters out of 2858517
+ 980848 words of memory out of 3000000
  39268 multiletter control sequences out of 15000+600000
  423172 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1333,9 +1345,9 @@ type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 4298206 bytes).
+Output written on main.pdf (26 pages, 4301701 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
