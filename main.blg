@@ -22,47 +22,66 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: Reference.bib
+I was expecting a `,' or a `}'---line 103 of file Reference.bib
+ :   
+ :   school={Austrian Academy of Sciences (AT)},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 106 of file Reference.bib
+ : @article{sanchez2020search
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 120 of file Reference.bib
+ : @phdthesis{di2020measurement
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 139 of file Reference.bib
+ :   
+ :   school={Indian Institute of Technology Madras (IN)}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 4 entries,
+You've used 21 entries,
             6393 wiz_defined-function locations,
-            1218 strings with 9555 characters,
-and the built_in function-call counts, 15105 in all, are:
-= -- 1002
-> -- 333
-< -- 113
-+ -- 344
-- -- 107
-* -- 801
-:= -- 1502
+            1293 strings with 12446 characters,
+and the built_in function-call counts, 82966 in all, are:
+= -- 5321
+> -- 1667
+< -- 540
++ -- 1491
+- -- 483
+* -- 4880
+:= -- 7258
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 81
-chr.to.int$ -- 42
-cite$ -- 6
-duplicate$ -- 1511
-empty$ -- 1421
-format.name$ -- 128
-if$ -- 3278
+call.type$ -- 21
+change.case$ -- 355
+chr.to.int$ -- 45
+cite$ -- 40
+duplicate$ -- 8830
+empty$ -- 8425
+format.name$ -- 860
+if$ -- 18098
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 49
 missing$ -- 0
-newline$ -- 86
-num.names$ -- 145
-pop$ -- 1061
+newline$ -- 430
+num.names$ -- 930
+pop$ -- 6693
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 418
 quote$ -- 0
-skip$ -- 646
+skip$ -- 3481
 stack$ -- 0
-substring$ -- 1523
-swap$ -- 379
-text.length$ -- 75
+substring$ -- 8027
+swap$ -- 2227
+text.length$ -- 366
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 123
+type$ -- 691
 warning$ -- 0
-while$ -- 209
+while$ -- 928
 width$ -- 0
-write$ -- 83
+write$ -- 410
+(There were 4 error messages)
