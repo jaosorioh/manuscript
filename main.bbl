@@ -145,6 +145,129 @@
     \field{year}{2020}
   \endentry
 
+  \entry{di2020measurement}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=DCD}{%
+         family={Di\bibnamedelima Croce},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DCD1}
+    \strng{fullhash}{DCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Measurement of the Higgs boson decay to a W boson pair at 13
+  TeV with the CMS detector}
+    \list{institution}{1}{%
+      {Antwerp U.}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
+  \entry{thomson2013modern}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TM}{%
+         family={Thomson},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{TM1}
+    \strng{fullhash}{TM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Modern particle physics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{aaij2015observation}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AR}{%
+         family={Aaij},
+         familyi={A\bibinitperiod},
+         given={Roel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Adeva},
+         familyi={A\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=AM}{%
+         family={Adinolfi},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=AA}{%
+         family={Affolder},
+         familyi={A\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=AZ}{%
+         family={Ajaltouni},
+         familyi={A\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=AS}{%
+         family={Akar},
+         familyi={A\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=AJ}{%
+         family={Albrecht},
+         familyi={A\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AF}{%
+         family={Alessio},
+         familyi={A\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=AM}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=AS}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{ARABAMAAAZASAJAFAMAS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{072001}
+    \field{title}{Observation of J/$\psi$ p Resonances Consistent with
+  Pentaquark States in $\Lambda$ b 0→ J/$\psi$ K- p Decays}
+    \field{volume}{115}
+    \field{journaltitle}{Physical review letters}
+    \field{year}{2015}
+  \endentry
+
   \entry{baron2018desarrollo}{thesis}{}
     \name{author}{1}{}{%
       {{hash=BD}{%
@@ -166,6 +289,170 @@
     }
     \field{type}{phdthesis}
     \field{year}{2018}
+  \endentry
+
+  \entry{sanchez2020search}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=SCS}{%
+         family={S{\'a}nchez\bibnamedelima Cruz},
+         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SCS+1}
+    \strng{fullhash}{SCS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Search for new physics in events with high transverse
+  momentum leptons with the CMS detector at the LHC}
+    \field{year}{2020}
+  \endentry
+
+  \entry{aziz2021z}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Aziz},
+         familyi={A\bibinitperiod},
+         given={Sizar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Z-boson and double charm production with ALICE at the LHC}
+    \list{institution}{1}{%
+      {Universit{\'e} Paris-Saclay}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2021}
+  \endentry
+
+  \entry{villatorodetection}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=VTA}{%
+         family={Villatoro\bibnamedelima Tello},
+         familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Abraham},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VTA1}
+    \strng{fullhash}{VTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Detection and discrimination of diffractive events with
+  ALICE-LHC at CERN}
+    \list{institution}{1}{%
+      {Autonomous University of Puebla (MX)}%
+    }
+    \field{type}{phdthesis}
+  \endentry
+
+  \entry{parkkila2021quantifying}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Parkkila},
+         familyi={P\bibinitperiod},
+         given={Jasper},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Quantifying the transport properties of quark-gluon plasma
+  through measurement of higher harmonic flow and their non-linear response}
+    \field{journaltitle}{JYU dissertations}
+    \field{year}{2021}
+  \endentry
+
+  \entry{mejia2012medida}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MJ}{%
+         family={Mej\'{i}a},
+         familyi={M\bibinitperiod},
+         given={Jhovanny},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJ1}
+    \strng{fullhash}{MJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Medida del tiempo de vida media del mes\'{o}n B$^0_s$
+  utilizando el detector CMS}
+    \list{institution}{1}{%
+      {Universidad de Antioquia}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2012}
+  \endentry
+
+  \entry{pdgstrange}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GPD}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={Particle\bibnamedelima Data},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GPD1}
+    \strng{fullhash}{GPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Bottom, strange mesons. $B_0^s$}
+    \verb{url}
+    \verb https://pdglive.lbl.gov/Particle.action?init=0&node=S086&home=MXXX046
+    \endverb
+  \endentry
+
+  \entry{greevenanalysis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=GLM}{%
+         family={Greeven},
+         familyi={G\bibinitperiod},
+         given={Lex\bibnamedelima Marinus},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GLM1}
+    \strng{fullhash}{GLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Analysis of flavour mixing and CP violation in the
+  strange-beauty meson system using LHCb data}
+    \list{institution}{1}{%
+      {NIKHEF, Amsterdam}%
+    }
+    \field{type}{phdthesis}
+  \endentry
+
+  \entry{cern2020lhcb}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{LHCb sees new form of matter–antimatter asymmetry in
+  strange beauty particles}
+    \verb{url}
+    \verb https://home.cern/news/news/physics/lhcb-sees-new-form-matter-antimat
+    \verb ter-asymmetry-strange-beauty-particles
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{oneill_2015}{misc}{}
@@ -190,28 +477,6 @@
     \field{journaltitle}{Universe Today}
     \field{year}{2015}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{di2020measurement}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=DCD}{%
-         family={Di\bibnamedelima Croce},
-         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-         given={Davide},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DCD1}
-    \strng{fullhash}{DCD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Measurement of the Higgs boson decay to a W boson pair at 13
-  TeV with the CMS detector}
-    \list{institution}{1}{%
-      {Antwerp U.}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2020}
   \endentry
 
   \entry{cern_document_server_2012}{misc}{}
@@ -262,28 +527,6 @@
     \field{volume}{100}
     \field{journaltitle}{Physical Review C}
     \field{year}{2019}
-  \endentry
-
-  \entry{mejia2012medida}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=MJ}{%
-         family={Mej\'{i}a},
-         familyi={M\bibinitperiod},
-         given={Jhovanny},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MJ1}
-    \strng{fullhash}{MJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Medida del tiempo de vida media del mes\'{o}n B$^0_s$
-  utilizando el detector CMS}
-    \list{institution}{1}{%
-      {Universidad de Antioquia}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2012}
   \endentry
 
   \entry{nobrega2013lhc}{article}{}
@@ -344,26 +587,6 @@
     \endverb
     \field{year}{2019}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{sanchez2020search}{article}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=SCS}{%
-         family={S{\'a}nchez\bibnamedelima Cruz},
-         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-         given={Sergio},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SCS+1}
-    \strng{fullhash}{SCS+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Search for new physics in events with high transverse
-  momentum leptons with the CMS detector at the LHC}
-    \field{year}{2020}
   \endentry
 
   \entry{lechner2021measurement}{thesis}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  11 DEC 2021 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  12 DEC 2021 15:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -919,6 +919,11 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'cern2020lhcb':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'oneill_2015':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -964,34 +969,34 @@ Overfull \hbox (49.98624pt too wide) detected at line 13
  []
 
 
-Overfull \hbox (49.98624pt too wide) detected at line 21
+Overfull \hbox (49.98624pt too wide) detected at line 23
 \OT1/cmr/bx/n/12 Chapter 2: 
- []
-
-
-Overfull \hbox (49.98624pt too wide) detected at line 35
-\OT1/cmr/bx/n/12 Chapter 3: 
  []
 
 [5
 
 ]
-Overfull \hbox (49.98624pt too wide) detected at line 47
+Overfull \hbox (49.98624pt too wide) detected at line 37
+\OT1/cmr/bx/n/12 Chapter 3: 
+ []
+
+
+Overfull \hbox (49.98624pt too wide) detected at line 49
 \OT1/cmr/bx/n/12 Chapter 4: 
  []
 
 
-Overfull \hbox (49.98624pt too wide) detected at line 73
+Overfull \hbox (49.98624pt too wide) detected at line 75
 \OT1/cmr/bx/n/12 Chapter 5: 
  []
 
 
-Overfull \hbox (49.98624pt too wide) detected at line 75
+Overfull \hbox (49.98624pt too wide) detected at line 77
 \OT1/cmr/bx/n/12 Chapter 6: 
  []
 
 
-Overfull \hbox (49.98624pt too wide) detected at line 77
+Overfull \hbox (49.98624pt too wide) detected at line 79
 \OT1/cmr/bx/n/12 Chapter 7: 
  []
 
@@ -1061,7 +1066,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./MainContent/Figs/SM-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<MainContent/Figs/SM-eps-converted-to.pdf, id=266, 1210.5225pt x 927.465pt>
+<MainContent/Figs/SM-eps-converted-to.pdf, id=275, 1210.5225pt x 927.465pt>
 File: MainContent/Figs/SM-eps-converted-to.pdf Graphic file (type pdf)
 <use MainContent/Figs/SM-eps-converted-to.pdf>
 Package pdftex.def Info: MainContent/Figs/SM-eps-converted-to.pdf  used on inpu
@@ -1077,20 +1082,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <./MainContent/Figs/SM-eps-converted-to.pdf>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
+[4]
+<MainContent/Figs/QGP.png, id=315, 1023.825pt x 672.5125pt>
+File: MainContent/Figs/QGP.png Graphic file (type png)
+<use MainContent/Figs/QGP.png>
+Package pdftex.def Info: MainContent/Figs/QGP.png  used on input line 31.
+(pdftex.def)             Requested size: 348.09589pt x 228.65121pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1100,34 +1104,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[4]
+[5 <./MainContent/Figs/QGP.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 25.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 25.
+(hyperref)                removing `math shift' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 25.
+(hyperref)                removing `superscript' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 25.
+(hyperref)                removing `subscript' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\psi' on input line 25.
+(hyperref)                removing `math shift' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 25.
+(hyperref)                removing `math shift' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 25.
+(hyperref)                removing `superscript' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\psi' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 38.
 
 ) (MainContent/Chapter2.tex
 
@@ -1138,16 +1158,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[5]
+[6]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-[6
+[7
 
 ]
-<MainContent/Figs/LHC.png, id=317, 1284.8pt x 905.3825pt>
+<MainContent/Figs/LHC.png, id=361, 1284.8pt x 905.3825pt>
 File: MainContent/Figs/LHC.png Graphic file (type png)
 <use MainContent/Figs/LHC.png>
 Package pdftex.def Info: MainContent/Figs/LHC.png  used on input line 17.
@@ -1161,8 +1181,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[7 <./MainContent/Figs/LHC.png>]
-<MainContent/Figs/cms_structure.png, id=331, 2392.43813pt x 1690.06406pt>
+[8 <./MainContent/Figs/LHC.png>]
+<MainContent/Figs/cms_structure.png, id=375, 2392.43813pt x 1690.06406pt>
 File: MainContent/Figs/cms_structure.png Graphic file (type png)
 <use MainContent/Figs/cms_structure.png>
 Package pdftex.def Info: MainContent/Figs/cms_structure.png  used on input line
@@ -1181,8 +1201,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[8 <./MainContent/Figs/cms_structure.png>]
-<MainContent/Figs/cms_coordinate_system.png, id=344, 260.4129pt x 127.9179pt>
+[9 <./MainContent/Figs/cms_structure.png>]
+<MainContent/Figs/cms_coordinate_system.png, id=388, 260.4129pt x 127.9179pt>
 File: MainContent/Figs/cms_coordinate_system.png Graphic file (type png)
 <use MainContent/Figs/cms_coordinate_system.png>
 Package pdftex.def Info: MainContent/Figs/cms_coordinate_system.png  used on in
@@ -1197,7 +1217,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[9 <./MainContent/Figs/cms_coordinate_system.png>]
+[10 <./MainContent/Figs/cms_coordinate_system.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1206,7 +1226,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[10]
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1215,7 +1235,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[11]) (MainContent/Chapter3.tex
+[12]) (MainContent/Chapter3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1224,7 +1244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[12]
+[13]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1270,7 +1290,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-) [13
+) [14
 
 ] (MainContent/Chapter4.tex
 
@@ -1281,13 +1301,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
+[15]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [15
+) [16
 
 ] (MainContent/Chapter5.tex
 
@@ -1298,13 +1318,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[17]
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter6.tex [17
+) (MainContent/Chapter6.tex [18
 
 ]
 Chapter 6.
@@ -1312,7 +1332,7 @@ Chapter 6.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) (MainContent/Chapter7.tex [18
+) (MainContent/Chapter7.tex [19
 
 ]
 Chapter 7.
@@ -1320,9 +1340,9 @@ Chapter 7.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [19
+) [20
 
-] [20
+] [21
 
 
 ]
@@ -1334,21 +1354,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FF4B2919D6F9F2A08914B95A3E101764;4899.
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23] (main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5F39DB68FEE270F97A5329FABEE75BFC;5093
+(rerunfilecheck)             After:  03F36F79AEE0CAA632B109D4709CFF0F;5101.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21874 strings out of 478864
- 360663 string characters out of 2858517
- 986943 words of memory out of 3000000
- 39337 multiletter control sequences out of 15000+600000
+ 21921 strings out of 478864
+ 362219 string characters out of 2858517
+ 990568 words of memory out of 3000000
+ 39371 multiletter control sequences out of 15000+600000
  423509 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,81p,1847b,1402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,81p,1847b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alexo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
@@ -1363,9 +1398,9 @@ ublic/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (30 pages, 4356905 bytes).
+Output written on main.pdf (32 pages, 4422646 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
