@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  14 DEC 2021 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  16 JAN 2022 21:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -793,24 +793,24 @@ LaTeX Info: Redefining \\ on input line 3056.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -867,7 +867,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -881,9 +881,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count454
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -938,8 +938,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
 \c@lstlisting=\count455
  (Additional/TitlePage.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
@@ -1033,7 +1033,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 dentifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \clearpage
+l.146 \clearpage
                  [1
 
 
@@ -1090,7 +1090,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [4]
-<MainContent/Figs/QGP.png, id=315, 1023.825pt x 672.5125pt>
+<MainContent/Figs/QGP.png, id=317, 1023.825pt x 672.5125pt>
 File: MainContent/Figs/QGP.png Graphic file (type png)
 <use MainContent/Figs/QGP.png>
 Package pdftex.def Info: MainContent/Figs/QGP.png  used on input line 31.
@@ -1167,7 +1167,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [7
 
 ]
-<MainContent/Figs/LHC.png, id=363, 1284.8pt x 905.3825pt>
+<MainContent/Figs/LHC.png, id=366, 1284.8pt x 905.3825pt>
 File: MainContent/Figs/LHC.png Graphic file (type png)
 <use MainContent/Figs/LHC.png>
 Package pdftex.def Info: MainContent/Figs/LHC.png  used on input line 17.
@@ -1182,7 +1182,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [8 <./MainContent/Figs/LHC.png>]
-<MainContent/Figs/cms_structure.png, id=377, 2392.43813pt x 1690.06406pt>
+<MainContent/Figs/cms_structure.png, id=380, 2392.43813pt x 1690.06406pt>
 File: MainContent/Figs/cms_structure.png Graphic file (type png)
 <use MainContent/Figs/cms_structure.png>
 Package pdftex.def Info: MainContent/Figs/cms_structure.png  used on input line
@@ -1202,7 +1202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [9 <./MainContent/Figs/cms_structure.png>]
-<MainContent/Figs/cms_coordinate_system.png, id=390, 260.4129pt x 127.9179pt>
+<MainContent/Figs/cms_coordinate_system.png, id=393, 260.4129pt x 127.9179pt>
 File: MainContent/Figs/cms_coordinate_system.png Graphic file (type png)
 <use MainContent/Figs/cms_coordinate_system.png>
 Package pdftex.def Info: MainContent/Figs/cms_coordinate_system.png  used on in
@@ -1252,47 +1252,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\psi' on input line 6.
+(hyperref)                removing `\psi' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 9.
+
+[14
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `\phi' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 7.
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 8.
+(hyperref)                removing `subscript' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 8.
+(hyperref)                removing `superscript' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 8.
+(hyperref)                removing `math shift' on input line 11.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 8.
-
-) [14
-
-] (MainContent/Chapter4.tex
+) (MainContent/Chapter4.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1371,10 +1372,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21922 strings out of 478864
- 362233 string characters out of 2858517
- 989568 words of memory out of 3000000
- 39371 multiletter control sequences out of 15000+600000
+ 21926 strings out of 478864
+ 362384 string characters out of 2858517
+ 990626 words of memory out of 3000000
+ 39374 multiletter control sequences out of 15000+600000
  423509 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,81p,1847b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1392,9 +1393,9 @@ ublic/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (32 pages, 4424847 bytes).
+Output written on main.pdf (32 pages, 4426975 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

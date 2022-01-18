@@ -187,6 +187,9 @@
     \field{year}{2013}
   \endentry
 
+  \entry{aaij2021study}{article}{}
+  \endentry
+
   \entry{aaij2015observation}{article}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -287,7 +290,7 @@
     \list{institution}{1}{%
       {Universidad de Antioquia}%
     }
-    \field{type}{phdthesis}
+    \field{type}{mathesis}
     \field{year}{2018}
   \endentry
 
@@ -351,6 +354,7 @@
       {Autonomous University of Puebla (MX)}%
     }
     \field{type}{phdthesis}
+    \field{year}{2019}
   \endentry
 
   \entry{parkkila2021quantifying}{article}{}
@@ -388,9 +392,9 @@
     \field{title}{Medida del tiempo de vida media del mes\'{o}n B$^0_s$
   utilizando el detector CMS}
     \list{institution}{1}{%
-      {Universidad de Antioquia}%
+      {Instituto Politécnico Nacional}%
     }
-    \field{type}{phdthesis}
+    \field{type}{mathesis}
     \field{year}{2012}
   \endentry
 
@@ -432,6 +436,7 @@
       {NIKHEF, Amsterdam}%
     }
     \field{type}{phdthesis}
+    \field{year}{2017}
   \endentry
 
   \entry{cern2020lhcb}{misc}{}
