@@ -1,12 +1,31 @@
-\chapter[\leavevmode\newline Simulation, Selection and Reconstruction]{Simulation, Selection and Reconstruction}
+\chapter[\leavevmode\newline Simulation, Selection and Reconstruction]{Simulation and $B^0_s$ Reconstruction}
 \chaptermark{Simulation, Selection and Reconstruction}
 \label{chap:Chapter_3}
 \section{Data and Monte Carlo Samples}
-The dataset used for the present analysis corresponds to
-an integrated luminosity of 179.7., and it was collected with the CMS experiment during the 2016 proton-nucleus collisions at $\sqrt{s_{NN}} = 8.16$ TeV. On the other hand, in particle physics, it is common practice to use Monte Carlo (MC) simulated samples to estimate detector efficiency and optimal parameters for particle reconstruction. In the present manuscript, a simulation chain consisting of three major steps was used to generate the MC samples. First, the general-purpose generator Pythia is used to simulate particle production. The decay process of the generated hadrons $B^0_s$ is then carried out using EVTGEN. Finally, the particles are detected using the GEANT software, which is a reliable CMS detector simulator. The total number MC samples generated was 
-\section{Selection Criteria}%triggers
-Two muons with different charges are chosen.
-\section{J/$\psi$ Reconstruction}
-\section{$\phi(1020)$ Reconstruction}
-\section{$B_s^0$ Reconstruction}
-\lipsum[3]
+The dataset used for the present analysis corresponds to an integrated luminosity of 179.7 nb$^{-1}$, and it was collected with the CMS experiment during the 2016 proton-nucleus (p-Pb) collisions at $\sqrt{s_{NN}} = 8.16$ TeV. It is common practice to use Monte Carlo (MC) simulated samples to estimate the detector efficiency and the optimal parameters for particle reconstruction. A simulation chain consisting of three major steps is implemented to generate the MC samples. First, the general-purpose generator Pythia is used to simulate particle production. The decay process of the generated hadrons $B^0_s$ is then carried out using EVTGEN. Finally, the particles are detected using the GEANT software, which is a reliable CMS detector simulator. %The total number MC samples generated was 
+\section{Reconstruction and Selection Criteria}%triggers
+To reconstruct the $B^0_s$ meson via the chosen channel, the $J/\psi$ and $\phi (1020)$ mesons must first be reconstructed. For the $J/\psi$ meson, two muon candidates are required, and two kaons are required for the $\phi (1020)$ meson. The specific selection criteria for such candidates will be described in the following sub-sections.
+\subsection{J/$\psi$ Reconstruction}
+
+Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$). They must originate from a common vertex, with $\chi^2 < 10.0$. It is also necessary for both muons to have $|\eta| < 2.4$ and the following $p_T$:
+
+\[ \begin{cases} 
+	p_T > 3.3 \ \text{GeV} & |\eta| < 1.1 \\
+	p_T > \left(5.5 - 2.0 \times |\eta|\right) \ \text{GeV} & 1.1 \leq |\eta| < 2.1 \\
+	p_T > 1.5 \ \text{GeV} & 2.1 \leq |\eta| < 2.4 
+\end{cases}
+\] 
+
+As a final condition for selecting a muon pair, the difference between the dimuon invariant mass and the reported value for the $J/\psi$ mass in the PDG, $3.0969$ GeV, must be less than $0.15$ GeV. 
+\subsection{$\phi(1020)$ Reconstruction}
+After selecting the appropriate muon candidate tracks, and because the CMS detector cannot correctly identify the tracks, it is assumed that the remaining tracks are kaon tracks, and thus all of them are initially considered for the $\phi(1020)$ reconstruction. However, in order for two pairs of kaons to be valid candidates, they must have opposite charge ($K^{+}K^{-}$), $|\eta| < 2.4$ and $p_T > 0.8$ GeV. The invariant mass of the kaon-pair must be between $0.010$ GeV around the reported mass for $\phi(1020)$ in the PDG of $1.01946$ GeV.
+\subsection{$B_s^0$ Reconstruction}
+Once the $J/\psi$ and $\phi(1020)$ candidates are properly reconstructed, they are required to have a common vertex, which corresponds to the $B_s^0$ vertex. The invariant mass of the $J/\psi$ - $\phi$ pair must be in the range $[5.240, 5.490]$ GeV, also the $p_T$ for the $B_0^s$ candidate must be in the range $[7, 50]$ GeV. 
+
+Several variables are used to reconstruct the $B_0^s$ meson, and due to the presence of high combinational background, it is desirable to find the optimal parameters for these variables that maximize the statistical significance of the signal:
+
+\begin{equation}
+	S = \frac{N_{\text{signal}}}{\sqrt{N_{\text{signal}} + N_{\text{bkg}}}}
+\end{equation}
+
+This optimization was performed using the MC samples. The variables used and their corresponding optimal value were: decay-length, $c\tau < 6.0 $, one of the kaons $p_T > 0.9$ and the $B_0^s$ vertex fitting probability $B_{pro} > 0.03$.

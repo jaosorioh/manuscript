@@ -188,6 +188,13 @@
   \endentry
 
   \entry{aaij2021study}{article}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Study of the doubly charmed tetraquark $ T_{cc}^+$,
+  author={Aaij, Roel and Abdelmotteleb, Ahmed Sameh Wagih and Beteta, C
+  Abell{\'a}n and Gallego, FJ and Ackernley, Thomas and Adeva, Bernardo and
+  Adinolfi, Marco and Afsharnia, Hossein and Agapopoulou, Christina and Aidala,
+  Christine Angela and others}, journal={arXiv preprint arXiv:2109.01056},
+  year={2021}}
   \endentry
 
   \entry{aaij2015observation}{article}{}
@@ -677,6 +684,60 @@
   proton-proton collision at $\sqrt{s} = 13 $ TeV}
     \field{type}{phdthesis}
     \field{year}{2021}
+  \endentry
+
+  \entry{cern2020ls2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{LS2 Report: 144 new muon detectors in CMS}
+    \verb{url}
+    \verb https://home.cern/news/news/experiments/ls2-report-144-new-muon-detec
+    \verb tors-cms
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{cerngems}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{GEMS (GAS ELECTRON MULTIPLIER)}
+    \verb{url}
+    \verb https://cms.cern/detector/detecting-muons/gas-electron-multiplier
+    \endverb
+  \endentry
+
+  \entry{cms25udea}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{CMS25 - Universidad de Antioquia}
+    \verb{url}
+    \verb https://cms.cern/detector/detecting-muons/gas-electron-multiplier
+    \endverb
   \endentry
 \enddatalist
 \endinput

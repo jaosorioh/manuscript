@@ -38,45 +38,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Data and Monte Carlo Samples}{14}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Selection Criteria}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Reconstruction and Selection Criteria}{14}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}J/$\psi $ Reconstruction}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.1}J/$\psi $ Reconstruction}{15}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}$\phi (1020)$ Reconstruction}{15}{section.3.4}%
+\contentsline {subsection}{\numberline {3.2.2}$\phi (1020)$ Reconstruction}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}$B_s^0$ Reconstruction}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.2.3}$B_s^0$ Reconstruction}{15}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\unhbox \voidb@x \newline Analysis Methodology}{16}{chapter.4}%
+\contentsline {chapter}{\numberline {4}\unhbox \voidb@x \newline Analysis Methodology}{17}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Fitting}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Fitting}{17}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Probability Density Functions}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Probability Density Functions}{17}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.1}Mass Model}{16}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Mass Model}{17}{subsubsection.4.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Background Model}{16}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Background Model}{17}{subsubsection.4.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Systematic Uncertainties}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Systematic Uncertainties}{17}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.1}Mass Model}{16}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Mass Model}{17}{subsubsection.4.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.2}Background Model}{16}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Background Model}{17}{subsubsection.4.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Cross-section Evaluation}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Cross-section Evaluation}{17}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Total Efficiency}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Total Efficiency}{17}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}Acceptance}{16}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Acceptance}{17}{subsubsection.4.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.2}Efficiency}{16}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Efficiency}{17}{subsubsection.4.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Cross-Section}{16}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Cross-Section}{17}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\unhbox \voidb@x \newline Results}{18}{chapter.5}%
+\contentsline {chapter}{\numberline {5}\unhbox \voidb@x \newline Results}{19}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\unhbox \voidb@x \newline Heading of Chapter 6 to show in TOC}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {6}\unhbox \voidb@x \newline Heading of Chapter 6 to show in TOC}{20}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\unhbox \voidb@x \newline Conclusion}{20}{chapter.7}%
+\contentsline {chapter}{\numberline {7}\unhbox \voidb@x \newline Conclusion}{21}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{21}{chapter.7}%
+\contentsline {chapter}{Bibliography}{22}{chapter.7}%
 \contentsfinish 
