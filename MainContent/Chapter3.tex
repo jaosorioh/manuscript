@@ -1,13 +1,17 @@
-\chapter[\leavevmode\newline Simulation, Selection and Reconstruction]{Simulation and $B^0_s$ Reconstruction}
-\chaptermark{Simulation, Selection and Reconstruction}
+\chapter[\leavevmode\newline Simulation and $B^0_s$ Reconstruction]{Simulation and $B^0_s$ Reconstruction}
+\chaptermark{Simulation and $B^0_s$ Reconstruction}
 \label{chap:Chapter_3}
-\section{Data and Monte Carlo Samples}
-The dataset used for the present analysis corresponds to an integrated luminosity of 179.7 nb$^{-1}$, and it was collected with the CMS experiment during the 2016 proton-nucleus (p-Pb) collisions at $\sqrt{s_{NN}} = 8.16$ TeV. It is common practice to use Monte Carlo (MC) simulated samples to estimate the detector efficiency and the optimal parameters for particle reconstruction. A simulation chain consisting of three major steps is implemented to generate the MC samples. First, the general-purpose generator Pythia is used to simulate particle production. The decay process of the generated hadrons $B^0_s$ is then carried out using EVTGEN. Finally, the particles are detected using the GEANT software, which is a reliable CMS detector simulator. %The total number MC samples generated was 
-\section{Reconstruction and Selection Criteria}%triggers
-To reconstruct the $B^0_s$ meson via the chosen channel, the $J/\psi$ and $\phi (1020)$ mesons must first be reconstructed. For the $J/\psi$ meson, two muon candidates are required, and two kaons are required for the $\phi (1020)$ meson. The specific selection criteria for such candidates will be described in the following sub-sections.
-\subsection{J/$\psi$ Reconstruction}
+\section{Data and Monte Carlo samples}
+The official dataset used for analysis was the \verb|/PADoubleMuon/PARun2016C-PromptReco-v1/AO| dataset and it was collected with the CMS experiment during the 2016 proton-nucleus (p-Pb) collisions at $\sqrt{s_{NN}} = 8.16$ TeV, with a total integrated luminosity of 179.7 nb$^{-1}$. Monte Carlo (MC) samples are generated prior to using this dataset. These samples can be used to estimate the detector efficiency, the performance of measurement methods described in Chapter 4, and choosing the parameters for reconstruction  of the $B^0_s \to J/\psi \ \phi(1020)$ channel with the real dataset. In order to generate the MC examples, the general-purpose generator \verb|PYTHIA 8| is used to simulate the particle production and hadronization process. The decay of the b hadrons is modeled with the \verb|EVTGEN| package. The \verb|EVTGEN| module \verb|PHOTOS| calculates the final state radiation (FSR). Lastly, the response of the CMS detector is simulated by the software \verb|GEANT4|. This software is set up with the same triggers and reconstruction algorithms used for the dataset of the collision. %The total number MC samples generated was 
 
-Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$). They must originate from a common vertex, with $\chi^2 < 10.0$. It is also necessary for both muons to have $|\eta| < 2.4$ and the following $p_T$:
+\section{Triggers}
+As explained in \ref{subsection:trig_sys} a trigger needs to be implemented in order to select the events of real interest. For the current work, a high level filter labeled as \verb|HLT_PAL1DoubleMuOpen_v1| is used. This is a rather loose trigger that softens the preselection criteria of the two muon candidates to maximize detection efficiency. It should be noted that a trigger prescale is sometimes used, this refers to the selection of only one event from a set of events that bypass the trigger requirements while disregarding the rest \cite{dorigo_2014}. However, no prescaling was used during the 2016 p-Pb collisions, resulting in a higher statistical precision.
+
+\section{Reconstruction and selection criteria}%triggers
+To reconstruct the $B^0_s$ meson via the chosen channel, the $J/\psi$ and $\phi (1020)$ mesons must first be reconstructed. For the $J/\psi$ meson, two muon candidates are required, and two kaons are required for the $\phi (1020)$ meson. The specific selection criteria for such candidates will be described in the following sub-sections.
+\subsection{J/$\psi$ reconstruction}
+
+Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$). Both muons are required to classify as Soft Muons. They must originate from a common vertex, with a  $\chi^2$ vertex probability, $J_{pro} > 1\%$. It is also necessary for both muons to have $|\eta| < 2.4$ and the following $p_T$:
 
 \[ \begin{cases} 
 	p_T > 3.3 \ \text{GeV} & |\eta| < 1.1 \\
@@ -16,10 +20,10 @@ Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$).
 \end{cases}
 \] 
 
-As a final condition for selecting a muon pair, the difference between the dimuon invariant mass and the reported value for the $J/\psi$ mass in the PDG, $3.0969$ GeV, must be less than $0.15$ GeV. 
-\subsection{$\phi(1020)$ Reconstruction}
-After selecting the appropriate muon candidate tracks, and because the CMS detector cannot correctly identify the tracks, it is assumed that the remaining tracks are kaon tracks, and thus all of them are initially considered for the $\phi(1020)$ reconstruction. However, in order for two pairs of kaons to be valid candidates, they must have opposite charge ($K^{+}K^{-}$), $|\eta| < 2.4$ and $p_T > 0.8$ GeV. The invariant mass of the kaon-pair must be between $0.010$ GeV around the reported mass for $\phi(1020)$ in the PDG of $1.01946$ GeV.
-\subsection{$B_s^0$ Reconstruction}
+As a final condition for selecting a muon pair, the dimuon invariant mass must be in the range $[2.9, 3.3]$ GeV.
+\subsection{$\phi(1020)$ reconstruction}
+After selecting the appropriate muon candidate tracks, and because the CMS detector cannot correctly identify the tracks, it is assumed that the remaining tracks are kaon tracks, and thus all of them are initially considered for the $\phi(1020)$ reconstruction. However, in order for two pairs of kaons to be valid candidates, they must have opposite charge ($K^{+}K^{-}$), $|\eta| < 2.4$ and $p_T > 0.8$ GeV and have high purity. The invariant mass of the kaon-pair must be between $0.010$ GeV around the reported mass for $\phi(1020)$ in the PDG of $1.01946$ GeV.
+\subsection{$B_s^0$ reconstruction}
 Once the $J/\psi$ and $\phi(1020)$ candidates are properly reconstructed, they are required to have a common vertex, which corresponds to the $B_s^0$ vertex. The invariant mass of the $J/\psi$ - $\phi$ pair must be in the range $[5.240, 5.490]$ GeV, also the $p_T$ for the $B_0^s$ candidate must be in the range $[7, 50]$ GeV. 
 
 Several variables are used to reconstruct the $B_0^s$ meson, and due to the presence of high combinational background, it is desirable to find the optimal parameters for these variables that maximize the statistical significance of the signal:
@@ -28,4 +32,34 @@ Several variables are used to reconstruct the $B_0^s$ meson, and due to the pres
 	S = \frac{N_{\text{signal}}}{\sqrt{N_{\text{signal}} + N_{\text{bkg}}}}
 \end{equation}
 
-This optimization was performed using the MC samples. The variables used and their corresponding optimal value were: decay-length, $c\tau < 6.0 $, one of the kaons $p_T > 0.9$ and the $B_0^s$ vertex fitting probability $B_{pro} > 0.03$.
+This optimization was performed using the MC samples. The variables used and their corresponding optimal value were: decay-length significance, $c\tau / \sigma_{c\tau}< 6.0 $, one of the kaons $p_T > 0.9$ and a $\chi^2$ vertex probability $B_{pro} > 3 \%$.
+
+A summary of the selection criteria for the reconstruction of the three objects is presented in table \ref{table:sel_criteria}.
+\begin{section}{CMSSW Framework}
+The simulation and event reconstruction described above were all carried out using \verb|CMSSW|, a \verb|C++|-based framework provided by CMS. \verb|Python| is widely used as well. \verb|CMSSW| was designed to make it easier to analyze and process data from detectors \cite{di2020measurement, twiki2013}. To do so, it employs an event data model, in which for each event that passes the trigger selection, a \verb|C++| class known as \verb|Event| is generated \cite{fedi2016studies, muhammad2021measurement}. This class contains all the necessary information about the event. After processing the data with  \verb|CMSSW|, a structured and user-friendly file format known as  \verb|ROOT| is generated, which can then be used for analysis by physicists, such as the one described in the following chapter \cite{di2020measurement}.
+\end{section}
+\setlength{\tabcolsep}{0.5em} % for the horizontal padding
+{\renewcommand{\arraystretch}{1.4}% for the vertical padding
+	\begin{table}[!htp]
+		\label{table:sel_criteria}
+		\begin{center}
+		\begin{tabular}{cc}
+			\hline                                                         \multirow{2}{*}{\textbf{Reconstruction}}    & \multirow{2}{*}{\textbf{Selection Criteria}}                                                                                                                                                                            \\
+			&                                                                                                                                                                                                                         \\ \hline
+			\multirow{5}{*}{$J/\psi \to \mu^{+}\mu{-}$} & Soft-Muon                                                                                                                                                                                                               \\ \cline{2-2} 
+			& $|\eta|_{\mu_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
+			& \begin{tabular}[c]{@{}c@{}}$(p_T)_{\mu_i} > 3.3 \text{GeV if } |\eta|_{\mu_i} < 1.1$\\ $(p_T)_{\mu_i} > \left(5.5 - 2.0 \times |\eta|_{\mu_i}\right) \text{GeV if }  1.1 \leq |\eta|_{\mu_i} < 2.1$\\ $(p_T)_{\mu_i} > 1.5 \text{GeV if } 2.1 \leq |\eta|_{\mu_i} < 2.4$\end{tabular} \\ \cline{2-2} 
+			& $M(\mu^{+}\mu^{-}) \in [2.9, 3.3] GeV$                                                                                                                                                                                  \\ \cline{2-2} 
+			& $\chi^2$ vertex probability $ > 1 \%$                                                                                                                                                                                   \\ \hline
+			\multirow{4}{*}{$\phi(1020) \to K^{+}K{-}$} & High-Purity Track                                                                                                                                                                                                       \\ \cline{2-2} 
+			& $|\eta|_{K_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
+			& $(p_T)_{K_i} > 0.8$ GeV                                                                                                                                                                                                         \\ \cline{2-2} 
+			& $|M(K^{+}K^{-}) - M_{PDG}(\phi)| <  0.010$ GeV                                                                                                                                                                          \\ \hline
+			\multirow{4}{*}{$B^0_s \to J/\psi \phi$}    & $p_T \in [7.0, 50.0]$ GeV                                                                                                                                                                                               \\ \cline{2-2} 
+			& $M(J/\psi \phi) \in [5.240, 5.490] $ GeV                                                                                                                                                                                \\ \cline{2-2} 
+			& $c\tau / \sigma_{c\tau}< 6.0 $                                                                                                                                                                                          \\ \cline{2-2} 
+			& $\chi^2$ vertex probability $ > 3 \%$                                                                                                                                                                         \\ \hline
+		\end{tabular}
+		\caption{Criteria for the selection and reconstruction of the $B^0_s \to J/\psi \phi$ decay using the $J/\psi \phi \to \mu{+}\mu{-}$ and $\phi(1020) \to K^{+}K^{-}$ decays.}
+		\end{center}
+	\end{table}

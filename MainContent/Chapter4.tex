@@ -1,13 +1,34 @@
-\chapter[\leavevmode\newline Analysis Methodology]{Analysis Methodology}
-\chaptermark{Analysis Methodology}
+\chapter[\leavevmode\newline Analysis Methods]{Analysis Methods}
+\chaptermark{Analysis Methods}
 \label{chap:Chapter_4}
-\section{Fitting}
-\subsection{Probability Density Functions}
-\subsubsection{Mass Model}
-\subsubsection{Background Model}
+\section{Invariant Mass Of $B^0_s$}
+Measuring the invariant mass for different $B^0_s$ mesons may yield different values, therefore, a distribution (or spectra) of mass values can be obtained. The events associated to this distribution can be classified as either signal or background events. The signal events are those that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background events can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
+
+The mass spectra of the $B^0_s$ is the main object of study in this paper and in order to model, a probability density function (PDF) is used, as described in the following subsection. 
+\subsection{Probability Density Function}
+The signal data is modeled using a PDF consisting of the sum of two gaussians with different parameters:
+
+\begin{equation}
+S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s*\frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu_1}{\sigma_1}\right)^2} + (1 - f_s)*\frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu_2}{\sigma_2}\right)^2}\right)
+\end{equation}
+
+Where $M_i$ is the value of the invariant mass, $\mu_1, \mu_2$ are the mean values for each gaussian and $\sigma_1, \sigma_2$ their standard deviation. $f_s$ represents the fraction of the signal PDF that corresponds to the first gaussian and $1-f_s$ the fraction of the second gaussian. The PDF used to model the background data corresponds to an exponential function: %the first Chebyshev polynomial of the first kind:
+
+\begin{equation}
+B_{PDF}(M_i) = A e^{-cM_i}
+\end{equation}
+
+With $A$ the normalization constant. Finally, the PDF for the mass is obtained by adding both PDFs:
+
+\begin{equation}
+M_{PDF}(M_i) = N_s*S_{PDF}(M_i)  + (1-N_s)*B_{PDF}(M_i)
+\end{equation}
+
+Where $N_s$ and $N_b = (1-N_s)$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
+
+\subsection{Fitting of the PDF}
 \subsection{Systematic Uncertainties}
-\subsubsection{Mass Model}
-\subsubsection{Background Model}
+
 \section{Cross-section Evaluation}
 \subsection{Total Efficiency}
 \subsubsection{Acceptance}

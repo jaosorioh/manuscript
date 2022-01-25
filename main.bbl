@@ -739,5 +739,49 @@
     \verb https://cms.cern/detector/detecting-muons/gas-electron-multiplier
     \endverb
   \endentry
+
+  \entry{dorigo_2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DT}{%
+         family={Dorigo},
+         familyi={D\bibinitperiod},
+         given={Tommaso},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DT1}
+    \strng{fullhash}{DT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Prescaled jet triggers: The rationale of randomly picking
+  events}
+    \verb{url}
+    \verb https://www.science20.com/a_quantum_diaries_survivor/prescaled_jet_tr
+    \verb iggers_the_rationale_of_randomly_picking_events-173093
+    \endverb
+    \field{journaltitle}{Science 2.0}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{twiki2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=o}{%
+         family={o},
+         familyi={o},
+      }}%
+    }
+    \strng{namehash}{o1}
+    \strng{fullhash}{o1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{CMSSW Application Framework}
+    \verb{url}
+    \verb https://www.science20.com/a_quantum_diaries_survivor/prescaled_jet_tr
+    \verb iggers_the_rationale_of_randomly_picking_events-173093
+    \endverb
+    \field{journaltitle}{CMSPublic}
+    \field{year}{2012}
+  \endentry
 \enddatalist
 \endinput
