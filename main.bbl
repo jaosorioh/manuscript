@@ -188,13 +188,78 @@
   \endentry
 
   \entry{aaij2021study}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AR}{%
+         family={Aaij},
+         familyi={A\bibinitperiod},
+         given={Roel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AASW}{%
+         family={Abdelmotteleb},
+         familyi={A\bibinitperiod},
+         given={Ahmed Sameh\bibnamedelima Wagih},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+      {{hash=BCA}{%
+         family={Beteta},
+         familyi={B\bibinitperiod},
+         given={C\bibnamedelima Abell{\'a}n},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gallego},
+         familyi={G\bibinitperiod},
+         given={FJ},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Ackernley},
+         familyi={A\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Adeva},
+         familyi={A\bibinitperiod},
+         given={Bernardo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Adinolfi},
+         familyi={A\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Afsharnia},
+         familyi={A\bibinitperiod},
+         given={Hossein},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Agapopoulou},
+         familyi={A\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ACA}{%
+         family={Aidala},
+         familyi={A\bibinitperiod},
+         given={Christine\bibnamedelima Angela},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{ARAASWBCAGFATABAMAHACACA+1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Study of the doubly charmed tetraquark $ T_{cc}^+$,
-  author={Aaij, Roel and Abdelmotteleb, Ahmed Sameh Wagih and Beteta, C
-  Abell{\'a}n and Gallego, FJ and Ackernley, Thomas and Adeva, Bernardo and
-  Adinolfi, Marco and Afsharnia, Hossein and Agapopoulou, Christina and Aidala,
-  Christine Angela and others}, journal={arXiv preprint arXiv:2109.01056},
-  year={2021}}
+    \field{title}{Study of the doubly charmed tetraquark $ T_{cc}^+$}
+    \field{journaltitle}{arXiv preprint arXiv:2109.01056}
+    \field{year}{2021}
   \endentry
 
   \entry{aaij2015observation}{article}{}
@@ -740,6 +805,224 @@
     \endverb
   \endentry
 
+  \entry{sjostrand2015introduction}{article}{}
+    \name{author}{10}{}{%
+      {{hash=ST}{%
+         family={Sj{\"o}strand},
+         familyi={S\bibinitperiod},
+         given={Torbj{\"o}rn},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Ask},
+         familyi={A\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJR}{%
+         family={Christiansen},
+         familyi={C\bibinitperiod},
+         given={Jesper\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Corke},
+         familyi={C\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Desai},
+         familyi={D\bibinitperiod},
+         given={Nishita},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=IP}{%
+         family={Ilten},
+         familyi={I\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mrenna},
+         familyi={M\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Prestel},
+         familyi={P\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RCO}{%
+         family={Rasmussen},
+         familyi={R\bibinitperiod},
+         given={Christine\bibnamedelima O},
+         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=SPZ}{%
+         family={Skands},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima Z},
+         giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ST+1}
+    \strng{fullhash}{STASCJRCRDNIPMSPSRCOSPZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{159\bibrangedash 177}
+    \field{title}{An introduction to PYTHIA 8.2}
+    \field{volume}{191}
+    \field{journaltitle}{Computer physics communications}
+    \field{year}{2015}
+  \endentry
+
+  \entry{lange2001evtgen}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LDJ}{%
+         family={Lange},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LDJ1}
+    \strng{fullhash}{LDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1-2}
+    \field{pages}{152\bibrangedash 155}
+    \field{title}{The EvtGen particle decay simulation package}
+    \field{volume}{462}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2001}
+  \endentry
+
+  \entry{davidson2016photos}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DN}{%
+         family={Davidson},
+         familyi={D\bibinitperiod},
+         given={Nadia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Przedzinski},
+         familyi={P\bibinitperiod},
+         given={Tomasz},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Was},
+         familyi={W\bibinitperiod},
+         given={Zbigniew},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DNPTWZ1}
+    \strng{fullhash}{DNPTWZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{86\bibrangedash 101}
+    \field{title}{PHOTOS interface in C++: technical and physics documentation}
+    \field{volume}{199}
+    \field{journaltitle}{Computer Physics Communications}
+    \field{year}{2016}
+  \endentry
+
+  \entry{agostinelli2003geant4}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AS}{%
+         family={Agostinelli},
+         familyi={A\bibinitperiod},
+         given={Sea},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Allison},
+         familyi={A\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AKa}{%
+         family={Amako},
+         familyi={A\bibinitperiod},
+         given={K\bibnamedelima al},
+         giveni={K\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Apostolakis},
+         familyi={A\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Araujo},
+         familyi={A\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=AP}{%
+         family={Arce},
+         familyi={A\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Asai},
+         familyi={A\bibinitperiod},
+         given={Makoto},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Axen},
+         familyi={A\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=BS}{%
+         family={Banerjee},
+         familyi={B\bibinitperiod},
+         given={Swagato},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Barrand},
+         familyi={B\bibinitperiod},
+         given={GJNI},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASAJAKaAJAHAPAMADBSBG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{250\bibrangedash 303}
+    \field{title}{GEANT4—a simulation toolkit}
+    \field{volume}{506}
+    \field{journaltitle}{Nuclear instruments and methods in physics research
+  section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2003}
+  \endentry
+
   \entry{dorigo_2014}{misc}{}
     \name{author}{1}{}{%
       {{hash=DT}{%
@@ -765,23 +1048,33 @@
   \endentry
 
   \entry{twiki2013}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=o}{%
-         family={o},
-         familyi={o},
-      }}%
-    }
-    \strng{namehash}{o1}
-    \strng{fullhash}{o1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{CMSSW Application Framework}
     \verb{url}
-    \verb https://www.science20.com/a_quantum_diaries_survivor/prescaled_jet_tr
-    \verb iggers_the_rationale_of_randomly_picking_events-173093
+    \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSSWFramework
     \endverb
     \field{journaltitle}{CMSPublic}
     \field{year}{2012}
+  \endentry
+
+  \entry{vsirca2016probability}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={{\v{S}}irca},
+         familyi={{\v{S}}\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Probability for physicists}
+    \field{year}{2016}
   \endentry
 \enddatalist
 \endinput

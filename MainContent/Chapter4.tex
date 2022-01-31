@@ -1,38 +1,93 @@
 \chapter[\leavevmode\newline Analysis Methods]{Analysis Methods}
 \chaptermark{Analysis Methods}
 \label{chap:Chapter_4}
-\section{Invariant Mass Of $B^0_s$}
-Measuring the invariant mass for different $B^0_s$ mesons may yield different values, therefore, a distribution (or spectra) of mass values can be obtained. The events associated to this distribution can be classified as either signal or background events. The signal events are those that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background events can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
 
-The mass spectra of the $B^0_s$ is the main object of study in this paper and in order to model, a probability density function (PDF) is used, as described in the following subsection. 
-\subsection{Probability Density Function}
-The signal data is modeled using a PDF consisting of the sum of two gaussians with different parameters:
+The experiments performed in CMS are of random nature. This refers to an experiment in which the output cannot be precisely predicted given a set of known inputs and initial conditions. Additionally, with each try, a different value may be obtained even if the inputs and conditions are the same. As a result, the various outputs or outcomes must be statistically treated in order to estimate the probability of getting a given output \cite{vsirca2016probability}. This chapter will explain the statistical methods used for analysis in the current thesis.
+\section{Probability Density Function}
+
+Given a continuous random variable $X$, a probability density function (PDF) $f_X$ is a mathematical function that describes the probability that $X$ has a value in the range $[a, b]$ \cite{bragagnolo2021measurement, vsirca2016probability}:
 
 \begin{equation}
-S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s*\frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu_1}{\sigma_1}\right)^2} + (1 - f_s)*\frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu_2}{\sigma_2}\right)^2}\right)
+	\int_{a}^{b} f_X(x) \ dx = P(a < X < b)
 \end{equation}
 
-Where $M_i$ is the value of the invariant mass, $\mu_1, \mu_2$ are the mean values for each gaussian and $\sigma_1, \sigma_2$ their standard deviation. $f_s$ represents the fraction of the signal PDF that corresponds to the first gaussian and $1-f_s$ the fraction of the second gaussian. The PDF used to model the background data corresponds to an exponential function: %the first Chebyshev polynomial of the first kind:
+with the properties that it is normalized, $\int_{-\infty}^{\infty} f_X(x) \ dx = 1$ and it is non-negative, $f_X(x) \geq 0$.
+
+If the invariant mass of the $B^0_s$ is regarded as a random variable, then a PDF can be used to model its distribution or spectra. Since this mass spectra is the primary focus of this manuscript, a detailed description of the chosen PDF will be provided in the following section.
+\section{PDF for the invariant mass of $B^0_s$}
+The data associated to the mass distribution can be classified as either signal or background data. The signal data are events that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background data can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
+
+The signal data is modeled using a PDF consisting of the sum of two gaussians with same mean value but different standard deviations:
+
+\begin{equation}
+S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s*\frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_1}\right)^2} + (1 - f_s)*\frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_2}\right)^2}\right)
+\end{equation}
+
+Where $M_i$ is the value of the invariant mass, $\mu$ is the mean value and $\sigma_1, \sigma_2$ are the standard deviations of each gaussian. $f_s$ represents the fraction of the signal PDF that corresponds to the first gaussian and $1-f_s$ the fraction of the second gaussian. 
+
+The PDF used to model the background data corresponds to an exponential function:
 
 \begin{equation}
 B_{PDF}(M_i) = A e^{-cM_i}
 \end{equation}
 
-With $A$ the normalization constant. Finally, the PDF for the mass is obtained by adding both PDFs:
+With $A$ the normalization constant. 
+
+Finally, the PDF for the mass is obtained by adding both PDFs:
 
 \begin{equation}
-M_{PDF}(M_i) = N_s*S_{PDF}(M_i)  + (1-N_s)*B_{PDF}(M_i)
+M_{PDF}(M_i) = N_s*S_{PDF}(M_i)  + N_b*B_{PDF}(M_i)
+\label{eq:masspdf}
 \end{equation}
 
-Where $N_s$ and $N_b = (1-N_s)$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
+Where $N_s$ and $N_b$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
 
-\subsection{Fitting of the PDF}
-\subsection{Systematic Uncertainties}
+\section{Maximum likelihood method}
+The parameters used to define the PDF of a random variable $X$ are usually unknown. If the value of $X$ is measured several times, the values of the unknown parameters can be determined using the maximum likelihood (ML) method, as described below.
 
-\section{Cross-section Evaluation}
-\subsection{Total Efficiency}
-\subsubsection{Acceptance}
+Let $f_X(\vec{x}, \vec{\Theta} )$ be a PDF described by $N$ measured values of $X$, $\vec{x} = \{x_1, x_2, ..., x_N\}$, and $M$ unknown parameters, $\vec{\Theta} = \{\Theta_1, \Theta_2, ..., \Theta_M \}$, then the likelihood function is defined as the product of the values of the PDF for each observation \cite{bonanomi2021response,vsirca2016probability}:
 
-\subsubsection{Efficiency}
-\subsection{Cross-Section}
+\begin{equation}
+L(\vec{x} \ | \ \vec{\Theta}) = \prod_{i = 1}^{N} f_X(x_i, \vec{\Theta}) 
+\end{equation}
+
+Where $|$ denotes the fact that this is a joint probability. The ML method consists of estimating the optimal values for the parameters $\Theta$ by maximizing the logarithm of the likelihood function \cite{mejia2012medida},
+
+\begin{equation}
+	l(\vec{x} \ | \ \vec{\Theta}) = \log L(\vec{x} \ | \ \vec{\Theta}) = \sum_{i = 1}^{N} \log f_X(x_i, \vec{\Theta})
+\end{equation} 
+
+with respect to $\Theta$:
+
+\begin{equation}
+	\frac{\partial{l(\vec{x} \ | \ \vec{\Theta})}}{\partial \Theta_j} = \sum_{i = 1}^{N} \frac{1}{f_X(\vec{x}, \vec{\Theta})} \frac{\partial{f_X(\vec{x}, \vec{\Theta})}}{\partial \Theta_j} = 0
+\end{equation} 
+
+\begin{equation}
+	\frac{\partial^2{l(\vec{x} \ | \ \vec{\Theta})}}{\partial \Theta_j ^2} < 0
+	\label{eq:ml}
+\end{equation}
+
+with $ j = 1, 2, ..., M$. The optimal value for the unknown parameter, $\Theta_j$, can be obtained by solving the respective differential equation.
+
+It is usually the case that no analytical solution exists for this maximization problem, and numerical methods are required. For this reason, the library \verb|ROOTFIT| is implemented to perform the ML method in the extended version. This version is used when the number of observations $N$ is also an unknown parameter. It is assumed that $N$ follows a Poisson distribution, therefore, the likelihood function changes to \cite{bonanomi2021response}:
+
+\begin{equation}
+	L(\vec{x} \ | \ \vec{\Theta}, \nu) = \frac{e^{-\nu} \nu^N}{N!} L(\vec{x} | \vec{\Theta})
+\end{equation}
+
+where $\nu$ is the expected number of observations. 
+If $\nu$ does not depend of $\Theta$, then $\nu = N$. The extended version is chosen because the number of signal and background events, $N_s$ and $N_b$, are parameters of interest and their value is not known beforehand. 
+\section{Systematic Uncertainties}
+The model used for the signal and background are not unique. A different model is proposed and the error associated to the previous fit is calculated
+
+For the signal model, we use a t-student distribution, with equation,
+
+and for the background model we use a first degree Chebysev polynomial of the first kind. The reason it was chosen over a normal polynomial was because Chebyshev are more stable in the \verb|ROOTFIT| library 
+
+\section{Total Efficiency}
+\subsection{Acceptance}
+
+\subsection{Efficiency}
+\section{Cross-Section}
 \lipsum[4]
