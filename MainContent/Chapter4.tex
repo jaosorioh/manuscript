@@ -73,7 +73,7 @@ with $ j = 1, 2, ..., M$. The optimal value for the unknown parameter, $\Theta_j
 It is usually the case that no analytical solution exists for this maximization problem, and numerical methods are required. For this reason, the library \verb|ROOTFIT| is implemented to perform the ML method in the extended version. This version is used when the number of observations $N$ is also an unknown parameter. It is assumed that $N$ follows a Poisson distribution, therefore, the likelihood function changes to \cite{bonanomi2021response}:
 
 \begin{equation}
-	L(\vec{x} \ | \ \vec{\Theta}, \nu) = \frac{e^{-\nu} \nu^N}{N!} L(\vec{x} | \vec{\Theta})
+	L(\vec{x} \ | \ \vec{\Theta}, \nu) = \frac{e^{-\nu} \nu^N}{N!} L(\vec{x} \ | \ \vec{\Theta})
 \end{equation}
 
 where $\nu$ is the expected number of observations. 
