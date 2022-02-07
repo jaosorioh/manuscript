@@ -2,7 +2,7 @@
 \chaptermark{Analysis Methods}
 \label{chap:Chapter_4}
 
-The experiments performed in CMS are of random nature. This refers to an experiment in which the output cannot be precisely predicted given a set of known inputs and initial conditions. Additionally, with each try, a different value may be obtained even if the inputs and conditions are the same. As a result, the various outputs or outcomes must be statistically treated in order to estimate the probability of getting a given output \cite{vsirca2016probability}. This chapter will explain the statistical methods used for analysis in the current thesis.
+The experiments performed in CMS are of random nature. This refers to an experiment in which the output cannot be precisely predicted given a set of known inputs and initial conditions. Moreover, with each try, a different value may be obtained even if the inputs and conditions are the same. As a result, the various outputs or outcomes must be statistically treated in order to estimate the probability of getting a given output \cite{vsirca2016probability}. This chapter will explain the statistical methods used for analysis in the current thesis.
 \section{Probability Density Function}
 
 Given a continuous random variable $X$, a probability density function (PDF) $f_X$ is a mathematical function that describes the probability that $X$ has a value in the range $[a, b]$ \cite{bragagnolo2021measurement, vsirca2016probability}:
@@ -17,13 +17,13 @@ If the invariant mass of the $B^0_s$ is regarded as a random variable, then a PD
 \section{PDF for the invariant mass of $B^0_s$}
 The data associated to the mass distribution can be classified as either signal or background data. The signal data are events that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background data can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
 
-The signal data is modeled using a PDF consisting of the sum of two gaussians with same mean value but different standard deviations:
+The signal data is modeled using a PDF consisting of the sum of two gaussian distributions with the same mean value but different standard deviations:
 
 \begin{equation}
 S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s*\frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_1}\right)^2} + (1 - f_s)*\frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_2}\right)^2}\right)
 \end{equation}
 
-Where $M_i$ is the value of the invariant mass, $\mu$ is the mean value and $\sigma_1, \sigma_2$ are the standard deviations of each gaussian. $f_s$ represents the fraction of the signal PDF that corresponds to the first gaussian and $1-f_s$ the fraction of the second gaussian. 
+Where $M_i$ is the value of the invariant mass, $\mu$ is the mean value and $\sigma_1, \sigma_2$ are the standard deviations of each gaussian. $f_s$ is the fraction of $S_{PDF}$ that corresponds to the first gaussian and $1-f_s$ to the second gaussian. 
 
 The PDF used to model the background data corresponds to an exponential function:
 
@@ -43,6 +43,7 @@ M_{PDF}(M_i) = N_s*S_{PDF}(M_i)  + N_b*B_{PDF}(M_i)
 Where $N_s$ and $N_b$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
 
 \section{Maximum likelihood method}
+\label{mlmethod}
 The parameters used to define the PDF of a random variable $X$ are usually unknown. If the value of $X$ is measured several times, the values of the unknown parameters can be determined using the maximum likelihood (ML) method, as described below.
 
 Let $f_X(\vec{x}, \vec{\Theta} )$ be a PDF described by $N$ measured values of $X$, $\vec{x} = \{x_1, x_2, ..., x_N\}$, and $M$ unknown parameters, $\vec{\Theta} = \{\Theta_1, \Theta_2, ..., \Theta_M \}$, then the likelihood function is defined as the product of the values of the PDF for each observation \cite{bonanomi2021response,vsirca2016probability}:
@@ -70,24 +71,46 @@ with respect to $\Theta$:
 
 with $ j = 1, 2, ..., M$. The optimal value for the unknown parameter, $\Theta_j$, can be obtained by solving the respective differential equation.
 
-It is usually the case that no analytical solution exists for this maximization problem, and numerical methods are required. For this reason, the library \verb|ROOTFIT| is implemented to perform the ML method in the extended version. This version is used when the number of observations $N$ is also an unknown parameter. It is assumed that $N$ follows a Poisson distribution, therefore, the likelihood function changes to \cite{bonanomi2021response}:
+There is a extended version of the ML method, used when the number of of measured values $N$ is also an unknown parameter. In this version, it is assumed that $N$ follows a Poisson distribution, therefore, the likelihood function changes to \cite{bonanomi2021response}:
 
 \begin{equation}
 	L(\vec{x} \ | \ \vec{\Theta}, \nu) = \frac{e^{-\nu} \nu^N}{N!} L(\vec{x} \ | \ \vec{\Theta})
 \end{equation}
 
 where $\nu$ is the expected number of observations. 
-If $\nu$ does not depend of $\Theta$, then $\nu = N$. The extended version is chosen because the number of signal and background events, $N_s$ and $N_b$, are parameters of interest and their value is not known beforehand. 
-\section{Systematic Uncertainties}
-The model used for the signal and background are not unique. A different model is proposed and the error associated to the previous fit is calculated
+If $\nu$ does not depend of $\Theta$, then $\nu = N$. 
 
-For the signal model, we use a t-student distribution, with equation,
+Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. As a result, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events, $N_s$ and $N_b$, are of interest and their values are unknown in advance.
 
-and for the background model we use a first degree Chebysev polynomial of the first kind. The reason it was chosen over a normal polynomial was because Chebyshev are more stable in the \verb|ROOTFIT| library 
+The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The real data of the invariant mass is fitted and the values for the number of signal and background events, $N_s$ and $N_b$ are obtained. 
 
-\section{Total Efficiency}
-\subsection{Acceptance}
+\section{Systematic and statistical uncertainties}
+The uncertainties in the measurement of a quantity during a physics experiment can be classified by two types. The first type are the statistical uncertainties, which are related to the fact, as mentioned in the introduction of this chapter, that multiple measurements of the same quantity can yield different results. Therefore, the value of such quantity is not precise, but fluctuates within a range. The measurement of this range is the statistical uncertainty \cite{sinervo2003definition}. 
 
-\subsection{Efficiency}
-\section{Cross-Section}
-\lipsum[4]
+In the case of the ML method, the statistical uncertainties for the estimated parameters $\vec{\Theta}$ are determined by calculating the covariance matrix $\mathrm{var}[\vec{\Theta}]$ \cite{vsirca2016probability}:
+
+\begin{equation}
+	\mathrm{var}[\vec{\Theta}] = 
+	\left(-E\left[ \frac{\partial^2 l(x | \vec{\Theta}) }{\partial \vec{\Theta} ^2}\right]_{\Theta = \hat{\Theta}}\right)^{-1}
+\end{equation}
+
+With $E[X]$ the expected value. The diagonals are the variance of the parameters and the uncertainty is calculated as the square root of the variance.
+
+On the other hand, given a set of $N$ random variables $\vec{X}$ and a respective covariance matrix $\mathrm{var}[\vec{X}]$, if a function $f = f(\vec{X})$ depends on these variables, then the variance associated to $f$ is calculated by \cite{vsirca2016probability}:
+
+\begin{equation}
+	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N \sum_{j=1}^N \left(\frac{\partial f}{\partial X_i} \frac{\partial f}{\partial X_j} \right)_{X = \mu} var[\vec{X}]_{i,j}
+\end{equation}
+
+With the partial derivatives evaluated at the mean value of $X$, $\mu$. When there is no correlation between variables, the previous equation reduces to:
+
+\begin{equation}
+	\label{totaluncertainty}
+	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N  \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} var[X_i]
+\end{equation}
+
+The statistical uncertainties are calculated by \verb|ROOTFIT|. Revise \cite{vsirca2016probability} for more information on expected values, variance, and their relation to uncertainties. Alternatively, any statistical book on the subject would suffice.
+
+The second type are systematic uncertainties. They are related to the nature of the instrument used, the specific model chosen for the data, the assumptions made about the experiment beforehand, among other factors. It should be noted that by taking more measurements of the quantity, the value of the statistical uncertainty can be minimized. For systematic uncertainties, however, this is not the case \cite{sinervo2003definition}. The uncertainties from different measurements are correlated, which means that they are not independent of one another . After a thorough examination and testing of the potential sources of uncertainty, systematic uncertainties can be calculated and possibly reduced.
+
+\section{$P_T$ and $|y|$ bins}

@@ -20,7 +20,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 10600 items.
+Reallocating 'field_info' (item size: 4) to 11020 items.
 Database file #1: main-blx.bib
 Database file #2: Reference.bib
 I was expecting a `,' or a `}'---line 103 of file Reference.bib
@@ -44,45 +44,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 40 entries,
+You've used 43 entries,
             6393 wiz_defined-function locations,
-            1387 strings with 15913 characters,
-and the built_in function-call counts, 202380 in all, are:
-= -- 14310
-> -- 3500
-< -- 992
-+ -- 4493
-- -- 1154
-* -- 12917
-:= -- 20389
+            1402 strings with 16326 characters,
+and the built_in function-call counts, 216224 in all, are:
+= -- 15241
+> -- 3771
+< -- 1061
++ -- 4727
+- -- 1238
+* -- 13846
+:= -- 21668
 add.period$ -- 0
-call.type$ -- 40
-change.case$ -- 638
+call.type$ -- 43
+change.case$ -- 677
 chr.to.int$ -- 48
-cite$ -- 78
-duplicate$ -- 21763
-empty$ -- 19402
-format.name$ -- 2113
-if$ -- 42286
+cite$ -- 84
+duplicate$ -- 23119
+empty$ -- 20804
+format.name$ -- 2271
+if$ -- 45283
 int.to.chr$ -- 0
-int.to.str$ -- 103
+int.to.str$ -- 113
 missing$ -- 0
-newline$ -- 1047
-num.names$ -- 1812
-pop$ -- 13553
+newline$ -- 1113
+num.names$ -- 1955
+pop$ -- 14554
 preamble$ -- 1
-purify$ -- 833
+purify$ -- 884
 quote$ -- 0
-skip$ -- 6753
+skip$ -- 7274
 stack$ -- 0
-substring$ -- 23526
-swap$ -- 4809
-text.length$ -- 737
+substring$ -- 25127
+swap$ -- 5134
+text.length$ -- 793
 text.prefix$ -- 11
 top$ -- 1
-type$ -- 1334
+type$ -- 1436
 warning$ -- 0
-while$ -- 2729
+while$ -- 2876
 width$ -- 0
-write$ -- 1008
+write$ -- 1071
 (There were 4 error messages)

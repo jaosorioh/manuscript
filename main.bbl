@@ -1076,5 +1076,73 @@
     \field{title}{Probability for physicists}
     \field{year}{2016}
   \endentry
+
+  \entry{sinervo2003definition}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SPK}{%
+         family={Sinervo},
+         familyi={S\bibinitperiod},
+         given={Pekka\bibnamedelima K},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{SPK1}
+    \strng{fullhash}{SPK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{122\bibrangedash 129}
+    \field{title}{Definition and treatment of systematic uncertainties in high
+  energy physics and astrophysics}
+    \field{journaltitle}{Statistical Problems in Particle Physics,
+  Astrophysics, and Cosmology}
+    \field{year}{2003}
+  \endentry
+
+  \entry{mason2002chebyshev}{book}{}
+    \name{author}{2}{}{%
+      {{hash=MJC}{%
+         family={Mason},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HDC}{%
+         family={Handscomb},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima C},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC press}%
+    }
+    \strng{namehash}{MJCHDC1}
+    \strng{fullhash}{MJCHDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Chebyshev polynomials}
+    \field{year}{2002}
+  \endentry
+
+  \entry{chebyshev}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{RooChebychev Class Reference}
+    \verb{url}
+    \verb https://root.cern.ch/doc/master/classRooChebychev.html
+    \endverb
+    \field{journaltitle}{ROOT Reference Guide}
+  \endentry
 \enddatalist
 \endinput

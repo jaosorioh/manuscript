@@ -1,4 +1,38 @@
-\chapter[\leavevmode\newline Results]{Results}
-\chaptermark{Heading on Chapter Pages}
+\chapter[\leavevmode\newline Cross-section evaluation]{Cross-section evaluation}
+\chaptermark{Cross-section evaluation}
 \label{chap:Chapter_5}
 \lipsum[5]
+
+\section{Total Efficiency}
+\subsection{Acceptance}
+
+\subsection{Efficiency}
+
+\section{Uncertainty in the cross-section}
+
+In the estimation of the differential cross-section, several sources of both statistical and systematic uncertainties are to be considered. The statistical uncertainties arise from the estimation of the unknown parameters, and they are calculated by \verb|ROOTFIT|. Since the total efficiency, $\epsilon$ is a function of some of these parameters, the uncertainty is estimated by 1.5. An explanation of the systematic contributions and how to determine them is provided below. 
+
+\subsection{Fit model}
+
+The influence of the signal and background PDFs is analyzed independently to establish the systematic uncertainty deriving from the chosen invariant mass PDF. To accomplish this, one of the PDFs is maintained unmodified, while the other is replaced with a PDF that is also suitable for the data.
+
+As described in section \ref{mlmethod}, the signal PDF has fixed parameters, therefore, a PDF with free parameters is used. Once the fit is completed, a second value for the number of signal events is obtained $N_s'$, and the difference between the original value $N_s$ and $N_s'$ is considered the source of systematic uncertainty in the signal model, $\sigma_{sig}$.
+
+The systematic uncertainties from the background are calculated in a similar fashion. The background PDF is replaced by a PDF consisting of a linear combination of Chebyshev polynomials of the first kind:
+
+\begin{equation}
+	B_{PDF}^{'}(M_i) = \sum_{i=0}^{N} c_i T_i(M_i) 
+\end{equation}
+
+with \cite{mason2002chebyshev} $T_i(M_i) = \cos(iM_i)$ and $c_i$ the coefficients. The \verb|ROOTFIT| library assumes that for $T_0 = 1$, the coefficient is simply $c_i = 1$ \cite{chebyshev}. Using this model, a second value $N_b'$ for the number of background events is obtained and the systematic uncertainty from the background, $\sigma_{bkg}$, is derived from difference between $N_b$ and $N_b'$.
+
+\subsection{Track Efficiency}
+
+\subsection{Total uncertainty}
+The total uncertainty of the differential cross-section is calculated by considering the different contributions and assuming that they are independent, therefore, the formula for propagation of uncertainties, eq. \ref{totaluncertainty}, can be used:
+
+$\sigma = \sqrt{\sigma_{bkg}^2 + \sigma_{sig}^2}$
+
+with $\sigma_i = \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} var[X_i]$
+
+
