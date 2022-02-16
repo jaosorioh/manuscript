@@ -681,6 +681,9 @@
     \field{labeltitlesource}{title}
     \field{title}{Measurement of the ttgamma cross section and effective field
   theory interpretation with the CMS experiment}
+    \list{institution}{1}{%
+      {Austrian Academy of Sciences (AT)}%
+    }
     \field{type}{phdthesis}
     \field{year}{2021}
   \endentry
@@ -747,6 +750,9 @@
   $\mathrm{B}_s^0 \to \mathrm{J}/\psi \phi \to \mu^{+} \mu^{-} \mathrm{K}^{+}
   \mathrm{K}^{-} $ decay process using the data collected by CMS in
   proton-proton collision at $\sqrt{s} = 13 $ TeV}
+    \list{institution}{1}{%
+      {Indian Institute of Technology Madras (IN)}%
+    }
     \field{type}{phdthesis}
     \field{year}{2021}
   \endentry
@@ -1101,6 +1107,110 @@
     \field{year}{2003}
   \endentry
 
+  \entry{pivarski2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Pivarski},
+         familyi={P\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \strng{namehash}{PJ2}
+    \strng{fullhash}{PJ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Cross section}}
+    \verb{url}
+    \verb https://www.fnal.gov/pub/today/archive/archive_2013/today13-03-01.htm
+    \verb l
+    \endverb
+    \field{journaltitle}{Fermilab - Physics in a nutshell}
+    \field{month}{03}
+    \field{year}{2013}
+  \endentry
+
+  \entry{abe1995measurement}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AF}{%
+         family={Abe},
+         familyi={A\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=AM}{%
+         family={Albrow},
+         familyi={A\bibinitperiod},
+         given={MG},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Amendolia},
+         familyi={A\bibinitperiod},
+         given={SR},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Amidei},
+         familyi={A\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=AJ}{%
+         family={Antos},
+         familyi={A\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AWC}{%
+         family={Anway-Wiese},
+         familyi={A\bibinithyphendelim W\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=AG}{%
+         family={Apollinari},
+         familyi={A\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=AH}{%
+         family={Areti},
+         familyi={A\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=AM}{%
+         family={Atac},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=AP}{%
+         family={Auchincloss},
+         familyi={A\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AF+1}
+    \strng{fullhash}{AFAMASADAJAWCAGAHAMAP+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{1451}
+    \field{title}{Measurement of the B Meson Differential Cross Section
+  d$\sigma$/d$p_T$ in p $\mathrm{\bar{p}}$ Collisions at $\sqrt{s} = 1.8$ TeV}
+    \field{volume}{75}
+    \field{journaltitle}{Physical review letters}
+    \field{year}{1995}
+  \endentry
+
   \entry{mason2002chebyshev}{book}{}
     \name{author}{2}{}{%
       {{hash=MJC}{%
@@ -1143,6 +1253,33 @@
     \verb https://root.cern.ch/doc/master/classRooChebychev.html
     \endverb
     \field{journaltitle}{ROOT Reference Guide}
+  \endentry
+
+  \entry{cms2018tracking}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=cC}{%
+         family={collaboration},
+         familyi={c\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cCCC+1}
+    \strng{fullhash}{cCCC+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Tracking POG results for pion efficiency with the D* meson
+  using data from 2016 and 2017}
+    \field{journaltitle}{CMS Detector Performance Report CMS-DP-2018-050}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

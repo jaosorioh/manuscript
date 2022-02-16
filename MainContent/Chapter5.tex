@@ -1,16 +1,53 @@
 \chapter[\leavevmode\newline Cross-section evaluation]{Cross-section evaluation}
 \chaptermark{Cross-section evaluation}
 \label{chap:Chapter_5}
-\lipsum[5]
 
-\section{Total Efficiency}
-\subsection{Acceptance}
+\section{Total efficiency}
 
-\subsection{Efficiency}
+The acceptance $\alpha$ for the $B^0_s$ meson can be studied using the MC simulation data. $\alpha$ is defined as the ratio of the number of $B^0_s$ mesons that meet the filter criteria for the kaons and muons candidates, table \ref{table:sel_criteria}, to the total number of $B^0_s$ mesons created in the MC simulation,
 
-\section{Uncertainty in the cross-section}
+\begin{equation}
+\alpha(p_T, |y|) = \frac{N(B^0_s; \ p_T, |y| ; \ \mathrm{filter \ criteria})}{N(B^0_s; \ p_T, |y| )}
+\end{equation}
 
-In the estimation of the differential cross-section, several sources of both statistical and systematic uncertainties are to be considered. The statistical uncertainties arise from the estimation of the unknown parameters, and they are calculated by \verb|ROOTFIT|. Since the total efficiency, $\epsilon$ is a function of some of these parameters, the uncertainty is estimated by 1.5. An explanation of the systematic contributions and how to determine them is provided below. 
+This value depends on the desired region for both $p_T$ and $|y|$. Because this manuscript takes into account several bins for these variables, a separate acceptance is obtained for each bin, as well as a total acceptance for the entire region. 
+
+The reconstruction efficiency, $\epsilon$, is defined as the ratio of the number of $B^0_s$ mesons that meet all of the selection criteria from table \ref{table:sel_criteria} to the number of $B^0_s$ mesons that meet the filter criteria for kaons and muons candidates (the numerator of acceptance),
+
+\begin{equation}
+	\epsilon(p_T, |y|) = \frac{N(B^0_s; \ p_T, |y| ; \ \mathrm{full \ selection \ criteria})}{N(B^0_s; \ p_T, |y| ; \ \mathrm{filter \ criteria})}
+\end{equation}
+
+The overall efficiency $\alpha \cdot \epsilon$, is the fraction of the generated $B^0_s$ mesons that actually correspond to the required candidates for investigation, that is, the mesons that decay through the channel studied in this work,
+
+\begin{equation}
+	\alpha \cdot \epsilon = \frac{N(B^0_s; \ p_T, |y| ; \ \mathrm{full \ selection \ criteria})}{N(B^0_s; \ p_T, |y|)}
+\end{equation}
+
+
+\section{Differential cross-section}
+
+In particle physics, the term cross-section is used to express the probability of a given event occurring \cite{thomson2013modern}. More specifically, the probability that two colliding particles would interact and generate a certain event, such as the production of a specific particle \cite{pivarski2013}. The cross-section will be used in this thesis to refer to the probability of producing a $B^0_s$ meson during p-Pb collisions that decays in the manner described in \ref{subsec:channel}.
+
+It is sometimes desirable to investigate how a specific kinematic quantity is distributed in respect to the cross-section \cite{thomson2013modern}. This could be valuable in gaining a better understanding of the interaction. For this, the differential cross-section might be used. The differential cross-section for the transverse momentum, $p_T$, is calculated as follows \cite{abe1995measurement}: 
+
+\begin{equation}
+	\label{eq:cs}
+\frac{d \sigma(B_0^s)}{dp_T} = \frac{N_s}{2 \Delta p_T \cdot \alpha \cdot \epsilon \cdot BR \cdot \mathcal{L}}
+\end{equation}
+
+where $\Delta p_T$ is the width of the $p_T$ region, $\alpha \cdot \epsilon$ is the total efficiency, BR is the branching ratio of the total decay chain, eq. \ref{eq:br}, and $\mathcal{L} = 179.7$ nb$^{-1}$  is the total integrated luminosity. Due of the quick transitions between particle and antiparticle indicated in \ref{sec:b0s}, both $B^0_s$ and $\bar{B^0_s}$ are formed in the collision, but only $B^0_s$ is considered, for this reason, the factor $\frac{1}{2}$ is included in the equation above.
+
+\section{Uncertainty for the cross-section}
+
+In the estimation of the uncertainty of the differential cross-section, several sources of statistical and systematic uncertainties are to be considered. By using eq. \ref{totaluncertainty} in eq. \ref{eq:cs}, the total statistical uncertainty can be obtained:
+
+\begin{equation}
+	\delta \left(\frac{d\sigma(B_0^s)}{dp_T} \right)_{stat} 
+ =\frac{d \sigma(B_0^s)}{dp_T}\left| \frac{\delta N_s}{N_s}\right|
+ \end{equation}
+
+In this situation, only the number of signal events $N_s$ is taken into account. An explanation on how to determine the sources of systematic uncertainties is provided below. 
 
 \subsection{Fit model}
 
@@ -25,14 +62,10 @@ The systematic uncertainties from the background are calculated in a similar fas
 \end{equation}
 
 with \cite{mason2002chebyshev} $T_i(M_i) = \cos(iM_i)$ and $c_i$ the coefficients. The \verb|ROOTFIT| library assumes that for $T_0 = 1$, the coefficient is simply $c_i = 1$ \cite{chebyshev}. Using this model, a second value $N_b'$ for the number of background events is obtained and the systematic uncertainty from the background, $\sigma_{bkg}$, is derived from difference between $N_b$ and $N_b'$.
+\subsection{Efficiency}
 
-\subsection{Track Efficiency}
+\subsubsection{MC size}
+The uncertainties of the ratios defined for the acceptance and efficiency, $\delta \alpha$ and $\delta \epsilon$ are statistical. However, due to the finite size of the number of Monte Carlo samples used for reconstruction, they turn into systematic uncertainties when considering the differential cross-section. For practical purposes, the uncertainty of the total efficiency $\delta(\alpha \cdot \epsilon)$ is used instead of the individual uncertainties.
+\subsubsection{Track}
 
-\subsection{Total uncertainty}
-The total uncertainty of the differential cross-section is calculated by considering the different contributions and assuming that they are independent, therefore, the formula for propagation of uncertainties, eq. \ref{totaluncertainty}, can be used:
-
-$\sigma = \sqrt{\sigma_{bkg}^2 + \sigma_{sig}^2}$
-
-with $\sigma_i = \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} var[X_i]$
-
-
+The uncertainty in the efficiency of reconstruction of the tracks ($K^{+}K^{-}$) is considered a systematic uncertainty. In this paper, we will use the value reported by \cite{cms2018tracking} as the track efficiency uncertainty: $2.4\%$.

@@ -20,7 +20,7 @@ The data associated to the mass distribution can be classified as either signal 
 The signal data is modeled using a PDF consisting of the sum of two gaussian distributions with the same mean value but different standard deviations:
 
 \begin{equation}
-S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s*\frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_1}\right)^2} + (1 - f_s)*\frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_2}\right)^2}\right)
+S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s \cdot \frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_1}\right)^2} + (1 - f_s) \cdot \frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_2}\right)^2}\right)
 \end{equation}
 
 Where $M_i$ is the value of the invariant mass, $\mu$ is the mean value and $\sigma_1, \sigma_2$ are the standard deviations of each gaussian. $f_s$ is the fraction of $S_{PDF}$ that corresponds to the first gaussian and $1-f_s$ to the second gaussian. 
@@ -28,7 +28,7 @@ Where $M_i$ is the value of the invariant mass, $\mu$ is the mean value and $\si
 The PDF used to model the background data corresponds to an exponential function:
 
 \begin{equation}
-B_{PDF}(M_i) = A e^{-cM_i}
+B_{PDF}(M_i) = A \cdot e^{-cM_i}
 \end{equation}
 
 With $A$ the normalization constant. 
@@ -36,7 +36,7 @@ With $A$ the normalization constant.
 Finally, the PDF for the mass is obtained by adding both PDFs:
 
 \begin{equation}
-M_{PDF}(M_i) = N_s*S_{PDF}(M_i)  + N_b*B_{PDF}(M_i)
+M_{PDF}(M_i) = N_s \cdot S_{PDF}(M_i)  + N_b \cdot B_{PDF}(M_i)
 \label{eq:masspdf}
 \end{equation}
 
@@ -82,35 +82,67 @@ If $\nu$ does not depend of $\Theta$, then $\nu = N$.
 
 Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. As a result, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events, $N_s$ and $N_b$, are of interest and their values are unknown in advance.
 
-The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The real data of the invariant mass is fitted and the values for the number of signal and background events, $N_s$ and $N_b$ are obtained. 
+The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \ \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The real data of the invariant mass is fitted and the values for the number of signal and background events, $N_s$ and $N_b$ are obtained. 
 
+\section{Significance}
+\label{sec:sig}
+Because of the high combinational background, it's important to find a set of additional conditions in the selection of the $B^0_s$ candidates, among the many that may be established, that reduces the number of background events while increasing the number of signal events. This can be accomplished by maximizing the signal's statistical significance, which is defined as:
+
+\begin{equation}
+	\label{eq:sig}
+	S = \frac{N_{\text{s}}}{\sqrt{N_{\text{s}} + N_{\text{b}}}}
+\end{equation}
+
+With respect to a set of parameters. The parameters used in this case were the decay-length significance, $c\tau / \sigma_{c\tau}$, $p_T$ of kaons and $\chi^2$ vertex probability of $B^0_s$, $B_{pro}$ and the following conditions where imposed:
+
+\begin{itemize}
+	\item  $(p_T)_{K_i} > a$, with $a \in [0.5, 1.2]$ GeV.
+	\item $B_{pro} > b$ with $b \in [1, 10] \%$ 
+	\item $c\tau / \sigma_{c\tau} < c$ with $c \in [1, 7]$
+\end{itemize}
+
+$a$, $b$, and $c$ are the values for which $S$ is maximum, and they were calculated by combining various alternative values for $a$, $b$, and $c$. A fit of the invariant mass is done for each combination, and $S$ is determined. The different values are compared, and $max(S)$ is found.
 \section{Systematic and statistical uncertainties}
-The uncertainties in the measurement of a quantity during a physics experiment can be classified by two types. The first type are the statistical uncertainties, which are related to the fact, as mentioned in the introduction of this chapter, that multiple measurements of the same quantity can yield different results. Therefore, the value of such quantity is not precise, but fluctuates within a range. The measurement of this range is the statistical uncertainty \cite{sinervo2003definition}. 
-
-In the case of the ML method, the statistical uncertainties for the estimated parameters $\vec{\Theta}$ are determined by calculating the covariance matrix $\mathrm{var}[\vec{\Theta}]$ \cite{vsirca2016probability}:
+The uncertainties in the measurement of a quantity during a physics experiment can be classified by two types. The first type are the statistical uncertainties, which are related to the fact, as mentioned in the introduction of this chapter, that multiple measurements of the same quantity can yield different results. Therefore, the value of such quantity is not precise, but fluctuates within a range. The measurement of this range is the statistical uncertainty \cite{sinervo2003definition}. The statistical uncertainties are calculated by \verb|ROOTFIT|, and in the case of the ML method, these are determined by the covariance matrix $\mathrm{var}[\vec{\Theta}]$ \cite{vsirca2016probability}:
 
 \begin{equation}
 	\mathrm{var}[\vec{\Theta}] = 
 	\left(-E\left[ \frac{\partial^2 l(x | \vec{\Theta}) }{\partial \vec{\Theta} ^2}\right]_{\Theta = \hat{\Theta}}\right)^{-1}
 \end{equation}
 
-With $E[X]$ the expected value. The diagonals are the variance of the parameters and the uncertainty is calculated as the square root of the variance.
+with $E[X]$ the expected value of $X$. The diagonals are the variance of the parameters $\vec{\Theta}$ and the uncertainty is the square root of the variance, 
+
+\begin{equation}
+	\delta \Theta_i = \sqrt{\mathrm{var}[\Theta_i]}
+\end{equation}
 
 On the other hand, given a set of $N$ random variables $\vec{X}$ and a respective covariance matrix $\mathrm{var}[\vec{X}]$, if a function $f = f(\vec{X})$ depends on these variables, then the variance associated to $f$ is calculated by \cite{vsirca2016probability}:
 
 \begin{equation}
-	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N \sum_{j=1}^N \left(\frac{\partial f}{\partial X_i} \frac{\partial f}{\partial X_j} \right)_{X = \mu} var[\vec{X}]_{i,j}
+	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N \sum_{j=1}^N \left(\frac{\partial f}{\partial X_i} \frac{\partial f}{\partial X_j} \right)_{X = \mu} \mathrm{var}[\vec{X}]_{i,j}
 \end{equation}
 
-With the partial derivatives evaluated at the mean value of $X$, $\mu$. When there is no correlation between variables, the previous equation reduces to:
+with the partial derivatives evaluated at the mean value of $X$, $\mu$. When there is no correlation between variables, the previous equation reduces to:
 
 \begin{equation}
 	\label{totaluncertainty}
-	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N  \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} var[X_i]
+	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N  \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} \mathrm{var}[X_i]
 \end{equation}
 
-The statistical uncertainties are calculated by \verb|ROOTFIT|. Revise \cite{vsirca2016probability} for more information on expected values, variance, and their relation to uncertainties. Alternatively, any statistical book on the subject would suffice.
+Revise \cite{vsirca2016probability} for more information on expected values, variance, and their relation to uncertainties. Alternatively, any statistical book on the subject would suffice.
 
-The second type are systematic uncertainties. They are related to the nature of the instrument used, the specific model chosen for the data, the assumptions made about the experiment beforehand, among other factors. It should be noted that by taking more measurements of the quantity, the value of the statistical uncertainty can be minimized. For systematic uncertainties, however, this is not the case \cite{sinervo2003definition}. The uncertainties from different measurements are correlated, which means that they are not independent of one another . After a thorough examination and testing of the potential sources of uncertainty, systematic uncertainties can be calculated and possibly reduced.
+The second type are systematic uncertainties. They are related to the nature of the instrument used, the specific model chosen for the data, the assumptions made about the experiment beforehand, among other factors. It should be noted that by taking more measurements of the quantity, the value of the statistical uncertainty can be minimized. For systematic uncertainties, however, this is not the case \cite{sinervo2003definition}. The uncertainties from different measurements are correlated, which means that they are not independent of one another. After a thorough examination and testing of the potential sources of uncertainty, systematic uncertainties can be calculated and possibly reduced. The total systematic uncertainty is calculated as:
 
-\section{$P_T$ and $|y|$ bins}
+\begin{equation}
+	\delta_{sys} = \sqrt{\sum_{i}^{N} \delta_{{sys}_{i}}^2}
+\end{equation}
+
+where $\delta_{{sys}_i}$ represents each one of the individual systematic uncertainties.
+%\begin{equation}
+%	\delta_T = \sqrt{\delta_{stat}^2 + \delta_{sys}^2}
+%\end{equation}
+
+\section{$p_T$ and $|y|$ bins}
+
+The influence of transverse momentum $p_T$ of the $B_0^s$ on the mass distribution is investigated. The dataset is partitioned into multiple regions or bins of $p_T$, to accomplish this. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. Similarly, the influence of rapidity $|y|$ of $B_0^s$ is investigated. And the boundaries for the bins were set at $[0, 0.5, 1, 1.6, 2.4]$ GeV.
+
