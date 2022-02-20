@@ -26,40 +26,52 @@ After selecting the appropriate muon candidate tracks, and because the CMS detec
 \subsection{$B_s^0$ reconstruction}
 Once the $J/\psi$ and $\phi(1020)$ candidates are properly reconstructed, they are required to have a common vertex, which corresponds to the $B_s^0$ vertex. The invariant mass of the $J/\psi$ - $\phi$ pair must be in the range $[5.240, 5.490]$ GeV, also the $p_T$ for the $B_0^s$ candidate must be in the range $[7, 50]$ GeV. 
 
-Three additional conditions were specified after optimizing the significance:
+Due to the presence of high combinational background, it is important to find a set of additional conditions in the selection of the $B^0_s$ candidates, among the many that could be established, that reduces the number of background events while increasing the number of signal events. This can be accomplished by maximizing the signal's statistical significance, which is defined as:
+
+\begin{equation}
+	\label{eq:sig}
+	S = \frac{N_{\text{s}}}{\sqrt{N_{\text{s}} + N_{\text{b}}}}
+\end{equation}
+
+With respect to a set of parameters. The parameters used in this case were the decay-length significance, $c\tau / \sigma_{c\tau}$, $p_T$ of kaons and $\chi^2$ vertex probability of $B^0_s$, $B_{pro}$ and the following conditions where imposed:
 
 \begin{itemize}
-	\item the decay-length significance for $B^0_s$, $c\tau / \sigma_{c\tau} < 6.0 $
-	\item the transverse momentum for kaons tracks, $(p_T)_{K_i} > 0.8$
-	\item and the $\chi^2$ vertex probability for the $B^0_s$, $B_{pro} > 3 \%$
-\end{itemize} 
+	\item  $(p_T)_{K_i} > a$, with $a \in [0.5, 1.2]$ GeV.
+	\item $B_{pro} > b$ with $b \in [1, 10] \%$ 
+	\item $c\tau / \sigma_{c\tau} < c$ with $c \in [1, 7]$
+\end{itemize}
 
-Check out the section \ref{sec:sig} for a detailed explanation of what significance means and how the optimization was done. A summary of the selection criteria for the reconstruction of the three objects is presented in table \ref{table:sel_criteria}.
-\begin{section}{CMSSW Framework}
-The simulation and event reconstruction described above were all carried out using \verb|CMSSW|, a \verb|C++|-based framework provided by CMS. \verb|Python| is widely used as well. \verb|CMSSW| was designed to make it easier to analyze and process data from detectors \cite{di2020measurement, twiki2013}. To do so, it employs an event data model, in which for each event that passes the trigger selection, a \verb|C++| class known as \verb|Event| is generated \cite{fedi2016studies, muhammad2021measurement}. This class contains all the necessary information about the event. After processing the data with  \verb|CMSSW|, a structured and user-friendly file format known as  \verb|ROOT| is generated, which can then be used for analysis by physicists, such as the one described in the following chapter \cite{di2020measurement}.
-\end{section}
+$a$, $b$, and $c$ are the values for which $S$ is maximum, and they were calculated by combining various alternative values for $a$, $b$, and $c$. A fit of the invariant mass is done for each combination, and $S$ is determined. The different values are compared, and $max(S)$ is found. The results for these values were $a = 0.8$ GeV, $b = 3\%$ and $c = 6.0$.
+
+A summary of the selection criteria for the reconstruction of the three objects is presented in table \ref{table:sel_criteria}.
+
 \setlength{\tabcolsep}{0.5em} % for the horizontal padding
 {\renewcommand{\arraystretch}{1.4}% for the vertical padding
 	\begin{table}[!htp]
-		\label{table:sel_criteria}
 		\begin{center}
-		\begin{tabular}{cc}
-			\hline                                                         \multirow{2}{*}{\textbf{Reconstruction}}    & \multirow{2}{*}{\textbf{Selection Criteria}}                                                                                                                                                                            \\
-			&                                                                                                                                                                                                                         \\ \hline
-			\multirow{5}{*}{$J/\psi \to \mu^{+}\mu{-}$} & Soft-Muon                                                                                                                                                                                                               \\ \cline{2-2} 
-			& $|\eta|_{\mu_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
-			& \begin{tabular}[c]{@{}c@{}}$(p_T)_{\mu_i} > 3.3 \text{GeV if } |\eta|_{\mu_i} < 1.1$\\ $(p_T)_{\mu_i} > \left(5.5 - 2.0 \times |\eta|_{\mu_i}\right) \text{GeV if }  1.1 \leq |\eta|_{\mu_i} < 2.1$\\ $(p_T)_{\mu_i} > 1.5 \text{GeV if } 2.1 \leq |\eta|_{\mu_i} < 2.4$\end{tabular} \\ \cline{2-2} 
-			& $M(\mu^{+}\mu^{-}) \in [2.9, 3.3] GeV$                                                                                                                                                                                  \\ \cline{2-2} 
-			& $\chi^2$ vertex probability $ > 1 \%$                                                                                                                                                                                   \\ \hline
-			\multirow{4}{*}{$\phi(1020) \to K^{+}K{-}$} & High-Purity Track                                                                                                                                                                                                       \\ \cline{2-2} 
-			& $|\eta|_{K_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
-			& $(p_T)_{K_i} > 0.8$ GeV                                                                                                                                                                                                         \\ \cline{2-2} 
-			& $|M(K^{+}K^{-}) - M_{PDG}(\phi)| <  0.010$ GeV                                                                                                                                                                          \\ \hline
-			\multirow{4}{*}{$B^0_s \to J/\psi \phi$}    & $p_T \in [7.0, 50.0]$ GeV                                                                                                                                                                                               \\ \cline{2-2} 
-			& $M(J/\psi \phi) \in [5.240, 5.490] $ GeV                                                                                                                                                                                \\ \cline{2-2} 
-			& $c\tau / \sigma_{c\tau}< 6.0 $                                                                                                                                                                                          \\ \cline{2-2} 
-			& $\chi^2$ vertex probability $ > 3 \%$                                                                                                                                                                         \\ \hline
-		\end{tabular}
-		\caption{Criteria for the selection and reconstruction of the $B^0_s \to J/\psi \phi$ decay using the $J/\psi \phi \to \mu^{+}\mu^{-}$ and $\phi(1020) \to K^{+}K^{-}$ decays.}
+			\begin{tabular}{cc}
+				\hline                                                         \multirow{2}{*}{\textbf{Reconstruction}}    & \multirow{2}{*}{\textbf{Selection Criteria}}                                                                                                                                                                            \\
+				&                                                                                                                                                                                                                         \\ \hline
+				\multirow{5}{*}{$J/\psi \to \mu^{+}\mu{-}$} & Soft-Muon                                                                                                                                                                                                               \\ \cline{2-2} 
+				& $|\eta|_{\mu_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
+				& \begin{tabular}[c]{@{}c@{}}$(p_T)_{\mu_i} > 3.3 \text{GeV if } |\eta|_{\mu_i} < 1.1$\\ $(p_T)_{\mu_i} > \left(5.5 - 2.0 \times |\eta|_{\mu_i}\right) \text{GeV if }  1.1 \leq |\eta|_{\mu_i} < 2.1$\\ $(p_T)_{\mu_i} > 1.5 \text{GeV if } 2.1 \leq |\eta|_{\mu_i} < 2.4$\end{tabular} \\ \cline{2-2} 
+				& $M(\mu^{+}\mu^{-}) \in [2.9, 3.3] GeV$                                                                                                                                                                                  \\ \cline{2-2} 
+				& $\chi^2$ vertex probability $ > 1 \%$                                                                                                                                                                                   \\ \hline
+				\multirow{4}{*}{$\phi(1020) \to K^{+}K{-}$} & High-Purity Track                                                                                                                                                                                                       \\ \cline{2-2} 
+				& $|\eta|_{K_i} < 2.4$                                                                                                                                                                                                          \\ \cline{2-2} 
+				& $(p_T)_{K_i} > 0.8$ GeV                                                                                                                                                                                                         \\ \cline{2-2} 
+				& $|M(K^{+}K^{-}) - M_{PDG}(\phi)| <  0.010$ GeV                                                                                                                                                                          \\ \hline
+				\multirow{4}{*}{$B^0_s \to J/\psi \phi$}    & $p_T \in [7.0, 50.0]$ GeV                                                                                                                                                                                               \\ \cline{2-2} 
+				& $M(J/\psi \phi) \in [5.240, 5.490] $ GeV                                                                                                                                                                                \\ \cline{2-2} 
+				& $c\tau / \sigma_{c\tau}< 6.0 $                                                                                                                                                                                          \\ \cline{2-2} 
+				& $\chi^2$ vertex probability $ > 3 \%$                                                                                                                                                                         \\ \hline
+			\end{tabular}
+			
 		\end{center}
+	\caption{Criteria for the selection and reconstruction of the $B^0_s \to J/\psi \phi$ decay using the $J/\psi \phi \to \mu^{+}\mu^{-}$ and $\phi(1020) \to K^{+}K^{-}$ decays.}
+	\label{table:sel_criteria}
 	\end{table}
+
+\begin{section}{CMSSW Framework}
+The simulation and event reconstruction described above were all carried out using \verb|CMSSW|, a \verb|C++|-based framework provided by CMS. \verb|Python| is widely used as well. \verb|CMSSW| was designed to make it easier to analyze and process data from detectors \cite{di2020measurement, twiki2013}. To do so, it employs an event data model, in which for each event that passes the trigger selection, a \verb|C++| class known as \verb|Event| is generated \cite{fedi2016studies, muhammad2021measurement}. This class contains all the necessary information about the event. After processing the data with  \verb|CMSSW|, a structured and user-friendly file format known as  \verb|ROOT| is generated, which can then be used for analysis by physicists, such as the one described in the following chapter \cite{di2020measurement}.
+\end{section}

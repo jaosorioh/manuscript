@@ -1,11 +1,10 @@
-\chapter[\leavevmode\newline Analysis Methods]{Analysis Methods}
-\chaptermark{Analysis Methods}
+\chapter[\leavevmode\newline Measurement of the invariant mass of $B^0_s$]{Measurement of the invariant mass of $B^0_s$}
+\chaptermark{Measurement of the invariant mass of $B^0_s$}
 \label{chap:Chapter_4}
-
-The experiments performed in CMS are of random nature. This refers to an experiment in which the output cannot be precisely predicted given a set of known inputs and initial conditions. Moreover, with each try, a different value may be obtained even if the inputs and conditions are the same. As a result, the various outputs or outcomes must be statistically treated in order to estimate the probability of getting a given output \cite{vsirca2016probability}. This chapter will explain the statistical methods used for analysis in the current thesis.
 \section{Probability Density Function}
+The experiments performed in CMS are of random nature. This refers to an experiment in which the output cannot be precisely predicted given a set of known inputs and initial conditions. Moreover, with each try, a different value may be obtained even if the inputs and conditions are the same. As a result, the various outputs or outcomes must be statistically treated in order to estimate the probability of getting a given output \cite{vsirca2016probability}. A probability density function (PDF) can be used to describe the distribution of the various values obtained in the experiment. The mathematical description of a PDF is provided below.
 
-Given a continuous random variable $X$, a probability density function (PDF) $f_X$ is a mathematical function that describes the probability that $X$ has a value in the range $[a, b]$ \cite{bragagnolo2021measurement, vsirca2016probability}:
+Given a continuous random variable $X$, a PDF $f_X$ is a mathematical function that describes the probability that $X$ has a value in the range $[a, b]$ \cite{bragagnolo2021measurement, vsirca2016probability}:
 
 \begin{equation}
 	\int_{a}^{b} f_X(x) \ dx = P(a < X < b)
@@ -14,12 +13,13 @@ Given a continuous random variable $X$, a probability density function (PDF) $f_
 with the properties that it is normalized, $\int_{-\infty}^{\infty} f_X(x) \ dx = 1$ and it is non-negative, $f_X(x) \geq 0$.
 
 If the invariant mass of the $B^0_s$ is regarded as a random variable, then a PDF can be used to model its distribution or spectra. Since this mass spectra is the primary focus of this manuscript, a detailed description of the chosen PDF will be provided in the following section.
-\section{PDF for the invariant mass of $B^0_s$}
+\section{PDF for the invariant mass}
 The data associated to the mass distribution can be classified as either signal or background data. The signal data are events that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background data can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
 
 The signal data is modeled using a PDF consisting of the sum of two gaussian distributions with the same mean value but different standard deviations:
 
 \begin{equation}
+	\label{eq:sigpdf}
 S_{PDF}(M_i) = \frac{1}{\sqrt{2\pi}} \left(f_s \cdot \frac{1}{\sigma_1}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_1}\right)^2} + (1 - f_s) \cdot \frac{1}{\sigma_2}e^{-\frac{1}{2}\left(\frac{M_i-\mu}{\sigma_2}\right)^2}\right)
 \end{equation}
 
@@ -31,16 +31,16 @@ The PDF used to model the background data corresponds to an exponential function
 B_{PDF}(M_i) = A \cdot e^{-cM_i}
 \end{equation}
 
-With $A$ the normalization constant. 
+with $A$ the normalization constant. 
 
 Finally, the PDF for the mass is obtained by adding both PDFs:
 
 \begin{equation}
-M_{PDF}(M_i) = N_s \cdot S_{PDF}(M_i)  + N_b \cdot B_{PDF}(M_i)
+M_{PDF}(M_i) = N_{B^0_s}\cdot S_{PDF}(M_i)  + N_{bkg} \cdot B_{PDF}(M_i)
 \label{eq:masspdf}
 \end{equation}
 
-Where $N_s$ and $N_b$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
+where $N_{B^0_s}$ and $N_{bkg}$ refer to the number of signal and background events respectively. This PDF is used for both the collision and MC data.
 
 \section{Maximum likelihood method}
 \label{mlmethod}
@@ -80,69 +80,194 @@ There is a extended version of the ML method, used when the number of of measure
 where $\nu$ is the expected number of observations. 
 If $\nu$ does not depend of $\Theta$, then $\nu = N$. 
 
-Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. As a result, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events, $N_s$ and $N_b$, are of interest and their values are unknown in advance.
+Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. As a result, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events are of interest and their values are unknown in advance.
 
-The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \ \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The real data of the invariant mass is fitted and the values for the number of signal and background events, $N_s$ and $N_b$ are obtained. 
-
-\section{Significance}
-\label{sec:sig}
-Because of the high combinational background, it's important to find a set of additional conditions in the selection of the $B^0_s$ candidates, among the many that may be established, that reduces the number of background events while increasing the number of signal events. This can be accomplished by maximizing the signal's statistical significance, which is defined as:
-
-\begin{equation}
-	\label{eq:sig}
-	S = \frac{N_{\text{s}}}{\sqrt{N_{\text{s}} + N_{\text{b}}}}
-\end{equation}
-
-With respect to a set of parameters. The parameters used in this case were the decay-length significance, $c\tau / \sigma_{c\tau}$, $p_T$ of kaons and $\chi^2$ vertex probability of $B^0_s$, $B_{pro}$ and the following conditions where imposed:
-
-\begin{itemize}
-	\item  $(p_T)_{K_i} > a$, with $a \in [0.5, 1.2]$ GeV.
-	\item $B_{pro} > b$ with $b \in [1, 10] \%$ 
-	\item $c\tau / \sigma_{c\tau} < c$ with $c \in [1, 7]$
-\end{itemize}
-
-$a$, $b$, and $c$ are the values for which $S$ is maximum, and they were calculated by combining various alternative values for $a$, $b$, and $c$. A fit of the invariant mass is done for each combination, and $S$ is determined. The different values are compared, and $max(S)$ is found.
-\section{Systematic and statistical uncertainties}
-The uncertainties in the measurement of a quantity during a physics experiment can be classified by two types. The first type are the statistical uncertainties, which are related to the fact, as mentioned in the introduction of this chapter, that multiple measurements of the same quantity can yield different results. Therefore, the value of such quantity is not precise, but fluctuates within a range. The measurement of this range is the statistical uncertainty \cite{sinervo2003definition}. The statistical uncertainties are calculated by \verb|ROOTFIT|, and in the case of the ML method, these are determined by the covariance matrix $\mathrm{var}[\vec{\Theta}]$ \cite{vsirca2016probability}:
-
-\begin{equation}
-	\mathrm{var}[\vec{\Theta}] = 
-	\left(-E\left[ \frac{\partial^2 l(x | \vec{\Theta}) }{\partial \vec{\Theta} ^2}\right]_{\Theta = \hat{\Theta}}\right)^{-1}
-\end{equation}
-
-with $E[X]$ the expected value of $X$. The diagonals are the variance of the parameters $\vec{\Theta}$ and the uncertainty is the square root of the variance, 
-
-\begin{equation}
-	\delta \Theta_i = \sqrt{\mathrm{var}[\Theta_i]}
-\end{equation}
-
-On the other hand, given a set of $N$ random variables $\vec{X}$ and a respective covariance matrix $\mathrm{var}[\vec{X}]$, if a function $f = f(\vec{X})$ depends on these variables, then the variance associated to $f$ is calculated by \cite{vsirca2016probability}:
-
-\begin{equation}
-	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N \sum_{j=1}^N \left(\frac{\partial f}{\partial X_i} \frac{\partial f}{\partial X_j} \right)_{X = \mu} \mathrm{var}[\vec{X}]_{i,j}
-\end{equation}
-
-with the partial derivatives evaluated at the mean value of $X$, $\mu$. When there is no correlation between variables, the previous equation reduces to:
-
-\begin{equation}
-	\label{totaluncertainty}
-	\mathrm{var}[f(\vec{X})] = \sum_{i=1}^N  \left(\frac{\partial f}{\partial X_i}\right)^2_{X = \mu} \mathrm{var}[X_i]
-\end{equation}
-
-Revise \cite{vsirca2016probability} for more information on expected values, variance, and their relation to uncertainties. Alternatively, any statistical book on the subject would suffice.
-
-The second type are systematic uncertainties. They are related to the nature of the instrument used, the specific model chosen for the data, the assumptions made about the experiment beforehand, among other factors. It should be noted that by taking more measurements of the quantity, the value of the statistical uncertainty can be minimized. For systematic uncertainties, however, this is not the case \cite{sinervo2003definition}. The uncertainties from different measurements are correlated, which means that they are not independent of one another. After a thorough examination and testing of the potential sources of uncertainty, systematic uncertainties can be calculated and possibly reduced. The total systematic uncertainty is calculated as:
-
-\begin{equation}
-	\delta_{sys} = \sqrt{\sum_{i}^{N} \delta_{{sys}_{i}}^2}
-\end{equation}
-
-where $\delta_{{sys}_i}$ represents each one of the individual systematic uncertainties.
-%\begin{equation}
-%	\delta_T = \sqrt{\delta_{stat}^2 + \delta_{sys}^2}
-%\end{equation}
+The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \ \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The collision data of the invariant mass is fitted and the values for the number of signal and background events, $N_{B^0_s}$ and $N_{bkg}$ are obtained. 
 
 \section{$p_T$ and $|y|$ bins}
 
-The influence of transverse momentum $p_T$ of the $B_0^s$ on the mass distribution is investigated. The dataset is partitioned into multiple regions or bins of $p_T$, to accomplish this. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. Similarly, the influence of rapidity $|y|$ of $B_0^s$ is investigated. And the boundaries for the bins were set at $[0, 0.5, 1, 1.6, 2.4]$ GeV.
+The influence of transverse momentum $p_T$ of the $B_0^s$ meson on its mass distribution is investigated. To accomplish this, the dataset is partitioned into multiple regions or bins of $p_T$. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. 
 
+The results for the MC simulation data in each of the $p_T$ bins are shown in Fig. \ref{fig:massMC_ptbins}. The table \ref{table:mc_ptbins} displays the values obtained in the MC data for the parameters $f_s$, $\sigma_1$ and $\sigma_2$. These values were used in the collision dataset. Fig. \ref{fig:mass_ptbins} shows the mass distributions for the collision dataset and includes the fit for the combinational background. The parameter $\sigma$ shown in the figures was calculated by adding $\sigma_1$ and $\sigma_2$ from eq. \ref{eq:sigpdf} in the following manner:
+
+\begin{equation}
+	\sigma = \sqrt{f_s \sigma_1^2 + (1-f_s)\sigma_2^2}
+\end{equation}
+
+\begin{table}[htp!]
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{$\mathbf{p_T}$ bin (GeV)} & \ $\mathbf{f_s}$ & \textbf{$\mathbf{\sigma_1}$ (MeV) }& \textbf{$\mathbf{\sigma_2}$ (MeV)}\\ \hline
+			[7, 10] & 0.423 $\pm$ 0.021 & 11.367 $\pm$ 0.455 &28.400 $\pm$ 0.563\\ \hline 
+			[10, 15] & 0.528 $\pm$ 0.065 & 9.578 $\pm$ 0.842 &24.702 $\pm$ 1.579\\ \hline 
+			[15, 20] & 0.480 $\pm$ 0.086 & 8.446 $\pm$ 1.026 &21.259 $\pm$ 1.595\\ \hline 
+			[20, 50] & 0.658 $\pm$ 0.013 & 10.300 $\pm$ 0.181 &24.088 $\pm$ 0.415\\ \hline 
+			[7, 50] & 0.582 $\pm$ 0.035 & 10.052 $\pm$ 0.428 &25.073 $\pm$ 0.894\\ \hline 
+		\end{tabular}
+	\end{center}
+	\caption{Values of the parameters obtained in the MC data for different $p_T$ intervals. These same parameters are used for the collision data.}
+	\label{table:mc_ptbins}
+\end{table}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
+	\label{fig:massMC_ptbins}
+\end{figure*}
+
+
+
+\begin{figure}[htp!]
+	\centering
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
+	\label{fig:mass_ptbins}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
+	
+\end{figure}
+
+
+Similarly, the influence of the rapidity $|y|$ of $B_0^s$ is investigated. The boundaries for the bins were set at $[0, 0.5, 1, 1.6, 2.4]$ GeV and the entire region for the transverse momentum is considered, $7.0$ GeV $\leq p_T < 50.0$ GeV. Fig. \ref{fig:massMC_ybins} shows the spectrum for MC data and fig. \ref{fig:mass_ybins} for the collision data. Table \ref{table:mc_ybins} shows the parameters obtained with the MC data.
+
+\begin{table}[htp!]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{$\mathbf{|y|}$ bin (GeV)} & \ $\mathbf{f_s}$ & \textbf{$\mathbf{\sigma_1}$ (MeV) }& \textbf{$\mathbf{\sigma_2}$ (MeV)}\\ \hline
+			[0.0, 0.5] & 0.845 $\pm$ 0.004 & 8.065 $\pm$ 0.039 &18.036 $\pm$ 0.170\\ \hline 
+			[0.5, 1.0] & 0.847 $\pm$ 0.014 & 10.300 $\pm$ 0.198 &25.999 $\pm$ 1.025\\ \hline 
+			[1.0, 1.6] & 0.668 $\pm$ 0.100 & 14.155 $\pm$ 1.039 &26.863 $\pm$ 2.113\\ \hline 
+			[1.6, 2.4] & 0.243 $\pm$ 0.106 & 11.932 $\pm$ 2.704 &27.130 $\pm$ 1.647\\ \hline 
+			[0.0, 2.4] & 0.582 $\pm$ 0.035 & 10.052 $\pm$ 0.428 &25.073 $\pm$ 0.894\\ \hline 
+		\end{tabular}
+	\end{center}
+\caption{Values of the parameters obtained in the MC data for different $|y|$ intervals. These same parameters are used for the collision data.}
+\label{table:mc_ybins}
+\end{table}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
+	\label{fig:massMC_ybins}
+\end{figure*}
+
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
+	\label{fig:mass_ybins}
+\end{figure*}
+
+
+Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the MC simulation and collision data, considering the full region for $p_T$ and $|y|$. 
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+		\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for the $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. a) corresponds to the MC simulation and b) to the p-Pb collision.}
+	\label{fig:mass}
+\end{figure*}
