@@ -6,93 +6,81 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{ix}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abstract}{xi}{chapter*.7}%
+\contentsline {chapter}{Abstract}{1}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Introduction}{1}{chapter*.8}%
+\contentsline {chapter}{Resumen}{2}{chapter*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}\unhbox \voidb@x \newline The Standard Model of particle physics}{2}{chapter.1}%
+\contentsline {chapter}{Introduction}{3}{chapter*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Quantum Chromodynamics}{4}{section.1.1}%
+\contentsline {chapter}{\numberline {1}\unhbox \voidb@x \newline The Standard Model of particle physics}{5}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Quark Gluon Plasma}{5}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.1}Quantum Chromodynamics}{7}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}$B^0_s$}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.1.1}Quark Gluon Plasma}{8}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The $B^0_s \to J/\psi \ \phi (1020)$ channel}{6}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.2}$B^0_s$}{9}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}\unhbox \voidb@x \newline The Large Hadron Collider}{7}{chapter.2}%
+\contentsline {subsection}{\numberline {1.2.1}The $B^0_s \to J/\psi \ \phi (1020)$ channel}{9}{subsection.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The CMS detector}{8}{section.2.1}%
+\contentsline {chapter}{\numberline {2}\unhbox \voidb@x \newline The Large Hadron Collider}{10}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}The coordinate system}{10}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.1}The CMS detector}{11}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Superconducting Solenoid}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.1}The coordinate system}{13}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}The tracker}{11}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.2}Superconducting Solenoid}{14}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Calorimetry system}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.3}The tracker}{14}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Muon detector}{12}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.4}Calorimetry system}{15}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Trigger System}{14}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.5}Muon detector}{15}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}\unhbox \voidb@x \newline Simulation and $B^0_s$ Reconstruction}{15}{chapter.3}%
+\contentsline {subsection}{\numberline {2.1.6}Trigger System}{17}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Data and Monte Carlo samples}{15}{section.3.1}%
+\contentsline {chapter}{\numberline {3}\unhbox \voidb@x \newline Simulation and $B^0_s$ Reconstruction}{18}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Triggers}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Data and Monte Carlo samples}{18}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Reconstruction and selection criteria}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Triggers}{18}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}J/$\psi $ reconstruction}{16}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.3}Reconstruction and selection criteria}{19}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}$\phi (1020)$ reconstruction}{16}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.1}J/$\psi $ reconstruction}{19}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}$B_s^0$ reconstruction}{17}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.2}$\phi (1020)$ reconstruction}{19}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}CMSSW Framework}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.3}$B_s^0$ reconstruction}{20}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\unhbox \voidb@x \newline Measurement of the invariant mass of $B^0_s$}{20}{chapter.4}%
+\contentsline {section}{\numberline {3.4}CMSSW Framework}{21}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Probability Density Function}{20}{section.4.1}%
+\contentsline {chapter}{\numberline {4}\unhbox \voidb@x \newline Measurement of the invariant mass of $B^0_s$}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}PDF for the invariant mass}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Probability Density Function}{23}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Maximum likelihood method}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.2}PDF for the invariant mass}{24}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}$p_T$ and $|y|$ bins}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Maximum likelihood method}{25}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\unhbox \voidb@x \newline Differential cross-section of $B^0_s \to J\psi \phi $}{30}{chapter.5}%
+\contentsline {section}{\numberline {4.4}$p_T$ and $|y|$ bins}{26}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Total efficiency}{30}{section.5.1}%
+\contentsline {chapter}{\numberline {5}\unhbox \voidb@x \newline Differential cross-section of $B^0_s \to J\psi \phi $}{34}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Differential cross-section}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.1}Total efficiency}{34}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Uncertainty in the differential cross-section}{32}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Differential cross-section}{36}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Fit model}{33}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.3}Uncertainty in the differential cross-section}{38}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Efficiency}{34}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.1}Fit model}{39}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2.1}MC size}{34}{subsubsection.5.3.2.1}%
+\contentsline {subsection}{\numberline {5.3.2}Efficiency}{44}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2.2}Track}{34}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}MC size}{44}{subsubsection.5.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\unhbox \voidb@x \newline Results}{35}{chapter.6}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Track}{44}{subsubsection.5.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Invariant mass distribution of $B^0_S$}{35}{section.6.1}%
+\contentsline {chapter}{\numberline {6}\unhbox \voidb@x \newline Conclusions}{45}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}$p_T$ bins}{35}{subsection.6.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}$|y|$ bins}{35}{subsection.6.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Total efficiency}{35}{section.6.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Systematic models}{35}{section.6.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Differential cross-section}{35}{section.6.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\unhbox \voidb@x \newline Conclusion}{39}{chapter.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{40}{chapter.7}%
+\contentsline {chapter}{Bibliography}{46}{chapter.6}%
 \contentsfinish 

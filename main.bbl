@@ -35,6 +35,309 @@
     \field{year}{2016}
   \endentry
 
+  \entry{baron2018desarrollo}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BD}{%
+         family={Bar\'{o}n},
+         familyi={B\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BD1}
+    \strng{fullhash}{BD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Desarrollo de un Trigger de Alto Nivel para un Modelo con
+  Fermiones de Tipo Vectorial con Espectro Comprimido para el Detector CMS en
+  el LHC}
+    \list{institution}{1}{%
+      {Universidad de Antioquia}%
+    }
+    \field{type}{mathesis}
+    \field{year}{2018}
+  \endentry
+
+  \entry{aziz2021z}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Aziz},
+         familyi={A\bibinitperiod},
+         given={Sizar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Z-boson and double charm production with ALICE at the LHC}
+    \list{institution}{1}{%
+      {Universit{\'e} Paris-Saclay}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2021}
+  \endentry
+
+  \entry{greevenanalysis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=GLM}{%
+         family={Greeven},
+         familyi={G\bibinitperiod},
+         given={Lex\bibnamedelima Marinus},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GLM1}
+    \strng{fullhash}{GLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Analysis of flavour mixing and CP violation in the
+  strange-beauty meson system using LHCb data}
+    \list{institution}{1}{%
+      {NIKHEF, Amsterdam}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2017}
+  \endentry
+
+  \entry{khachatryan2016study}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=KV}{%
+         family={Khachatryan},
+         familyi={K\bibinitperiod},
+         given={Vardan},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SAM}{%
+         family={Sirunyan},
+         familyi={S\bibinitperiod},
+         given={Albert\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tumasyan},
+         familyi={T\bibinitperiod},
+         given={Armen},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AW}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Asilar},
+         familyi={A\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=BT}{%
+         family={Bergauer},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brandstetter},
+         familyi={B\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brondolin},
+         familyi={B\bibinitperiod},
+         given={Erica},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dragicevic},
+         familyi={D\bibinitperiod},
+         given={Marko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Er{\"o}},
+         familyi={E\bibinitperiod},
+         given={Janos},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KVSAMTAAWAEBTBJBEDMEJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{032301}
+    \field{title}{Study of B Meson Production in p+ Pb Collisions at
+  $\sqrt{s_{NN}}= 5.02$ TeV Using Exclusive Hadronic Decays}
+    \field{volume}{116}
+    \field{journaltitle}{Physical review letters}
+    \field{year}{2016}
+  \endentry
+
+  \entry{chatrchyan2011measurement}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=CS}{%
+         family={Chatrchyan},
+         familyi={C\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=BS}{%
+         family={Bose},
+         familyi={B\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=BJ}{%
+         family={Butt},
+         familyi={B\bibinitperiod},
+         given={Jamila},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Claes},
+         familyi={C\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dominguez},
+         familyi={D\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Eads},
+         familyi={E\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Keller},
+         familyi={K\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=KT}{%
+         family={Kelly},
+         familyi={K\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=KI}{%
+         family={Kravchenko},
+         familyi={K\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LFJ}{%
+         family={Lazo-Flores},
+         familyi={L\bibinithyphendelim F\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSBSBJCDDAEMKJKTKILFJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Measurement of the B0s Production Cross Section with $B^0_s
+  J/\psi \phi$ in pp Collisions at $\sqrt{s} =$ 7 TeV}
+    \field{year}{2011}
+  \endentry
+
+  \entry{canelli2019measurement}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=CMF}{%
+         family={Canelli},
+         familyi={C\bibinitperiod},
+         given={Maria\bibnamedelima Florencia},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=ATK}{%
+         family={Aarrestad},
+         familyi={A\bibinitperiod},
+         given={Thea\bibnamedelima K},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Brzhechko},
+         familyi={B\bibinitperiod},
+         given={Danyyl},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Caminada},
+         familyi={C\bibinitperiod},
+         given={Lea},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=dCA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Cosa},
+         familyi={C\bibinitperiod},
+         given={Annapaoloa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DBR}{%
+         family={Del\bibnamedelima Burgo},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Donato},
+         familyi={D\bibinitperiod},
+         given={Silvio},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Galloni},
+         familyi={G\bibinitperiod},
+         given={Camilla},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hreus},
+         familyi={H\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leontsinis},
+         familyi={L\bibinitperiod},
+         given={Stefanos},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CMF+1}
+    \strng{fullhash}{CMFATKBDCLCAdDBRDSGCHTLS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{168\bibrangedash 190}
+    \field{title}{Measurement of $B^0_s $ meson production in pp and PbPb
+  collisions at $\sqrt{s_{NN}} = 5.02$ TeV}
+    \field{volume}{796}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2019}
+  \endentry
+
   \entry{fedi2016studies}{article}{}
     \name{author}{1}{}{%
       {{hash=FG}{%
@@ -343,29 +646,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{baron2018desarrollo}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=BD}{%
-         family={Bar\'{o}n},
-         familyi={B\bibinitperiod},
-         given={Diego},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BD1}
-    \strng{fullhash}{BD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Desarrollo de un Trigger de Alto Nivel para un Modelo con
-  Fermiones de Tipo Vectorial con Espectro Comprimido para el Detector CMS en
-  el LHC}
-    \list{institution}{1}{%
-      {Universidad de Antioquia}%
-    }
-    \field{type}{mathesis}
-    \field{year}{2018}
-  \endentry
-
   \entry{sanchez2020search}{article}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -384,27 +664,6 @@
     \field{title}{Search for new physics in events with high transverse
   momentum leptons with the CMS detector at the LHC}
     \field{year}{2020}
-  \endentry
-
-  \entry{aziz2021z}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=AS}{%
-         family={Aziz},
-         familyi={A\bibinitperiod},
-         given={Sizar},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AS1}
-    \strng{fullhash}{AS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Z-boson and double charm production with ALICE at the LHC}
-    \list{institution}{1}{%
-      {Universit{\'e} Paris-Saclay}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2021}
   \endentry
 
   \entry{villatorodetection}{thesis}{}
@@ -487,28 +746,6 @@
     \verb{url}
     \verb https://pdglive.lbl.gov/Particle.action?init=0&node=S086&home=MXXX046
     \endverb
-  \endentry
-
-  \entry{greevenanalysis}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=GLM}{%
-         family={Greeven},
-         familyi={G\bibinitperiod},
-         given={Lex\bibnamedelima Marinus},
-         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GLM1}
-    \strng{fullhash}{GLM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Analysis of flavour mixing and CP violation in the
-  strange-beauty meson system using LHCb data}
-    \list{institution}{1}{%
-      {NIKHEF, Amsterdam}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2017}
   \endentry
 
   \entry{cern2020lhcb}{misc}{}
@@ -1083,30 +1320,6 @@
     \field{year}{2016}
   \endentry
 
-  \entry{sinervo2003definition}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SPK}{%
-         family={Sinervo},
-         familyi={S\bibinitperiod},
-         given={Pekka\bibnamedelima K},
-         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Citeseer}%
-    }
-    \strng{namehash}{SPK1}
-    \strng{fullhash}{SPK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{122\bibrangedash 129}
-    \field{title}{Definition and treatment of systematic uncertainties in high
-  energy physics and astrophysics}
-    \field{journaltitle}{Statistical Problems in Particle Physics,
-  Astrophysics, and Cosmology}
-    \field{year}{2003}
-  \endentry
-
   \entry{pivarski2013}{misc}{}
     \name{author}{1}{}{%
       {{hash=PJ}{%
@@ -1209,6 +1422,30 @@
     \field{volume}{75}
     \field{journaltitle}{Physical review letters}
     \field{year}{1995}
+  \endentry
+
+  \entry{sinervo2003definition}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SPK}{%
+         family={Sinervo},
+         familyi={S\bibinitperiod},
+         given={Pekka\bibnamedelima K},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{SPK1}
+    \strng{fullhash}{SPK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{122\bibrangedash 129}
+    \field{title}{Definition and treatment of systematic uncertainties in high
+  energy physics and astrophysics}
+    \field{journaltitle}{Statistical Problems in Particle Physics,
+  Astrophysics, and Cosmology}
+    \field{year}{2003}
   \endentry
 
   \entry{mason2002chebyshev}{book}{}

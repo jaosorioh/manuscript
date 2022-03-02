@@ -18,26 +18,68 @@ The reconstruction efficiency, $\epsilon$, is defined as the ratio of the number
 	\epsilon(p_T, |y|) = \frac{N(B^0_s; \ p_T, |y| ; \ \mathrm{full \ selection \ criteria})}{N(B^0_s; \ p_T, |y| ; \ \mathrm{filter \ criteria})}
 \end{equation}
 
-The overall efficiency $\alpha \cdot \epsilon$, is the fraction of the generated $B^0_s$ mesons that actually correspond to the required candidates for investigation, that is, the mesons that decay through the channel studied in this work,
+The total efficiency $\alpha \cdot \epsilon$, is the fraction of the generated $B^0_s$ mesons that actually correspond to the required candidates for investigation, that is, the mesons that decay through the channel studied in this work,
 
 \begin{equation}
 	\alpha \cdot \epsilon = \frac{N(B^0_s; \ p_T, |y| ; \ \mathrm{full \ selection \ criteria})}{N(B^0_s; \ p_T, |y|)}
 \end{equation}
 
-Fig. and fig. show the acceptance, efficiency and total efficiency for the $p_T$ and $|y|$ bins respectively. 
+Fig. \ref{fig:effy_ptbins} shows the acceptance, efficiency and total efficiency for the $p_T$ bins% and $|y|$ bins respectively. 
+
+\begin{figure}[htp!]
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/effy/alpha_ptbins.PDF}
+		\caption{}%
+	\end{subfigure}
+	\begin{subfigure}[b]{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{MainContent/Figs/effy/epsilon_ptbins.PDF}
+	\caption{}%
+\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.8\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/effy/totaleffy_ptbins.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{(a) Acceptance, (b) efficiency and (c) total efficiency for the MC simulation using $p_T$ bins.}
+	\label{fig:effy_ptbins}
+\end{figure}
+
 \section{Differential cross-section}
 
 In particle physics, the term cross-section is used to express the probability of a given event occurring \cite{thomson2013modern}. More specifically, the probability that two colliding particles would interact and generate a certain event, such as the production of a specific particle \cite{pivarski2013}. The cross-section will be used in this thesis to refer to the probability of producing a $B^0_s$ meson during p-Pb collisions that decays in the manner described in \ref{subsec:channel}.
 
-It is sometimes desirable to investigate how a specific kinematic quantity is distributed in respect to the cross-section \cite{thomson2013modern}. This could be valuable in gaining a better understanding of the interaction. For this, the differential cross-section might be used. The differential cross-section with respecto to the transverse momentum, $p_T$, is calculated as follows \cite{abe1995measurement}: 
+It is sometimes desirable to investigate how a specific kinematic quantity is distributed in respect to the cross-section \cite{thomson2013modern}. This could be valuable in gaining a better understanding of the interaction. For this, the differential cross-section might be used. The differential cross-section with respect to the transverse momentum, $p_T$, is calculated as follows \cite{abe1995measurement}: 
 
 \begin{equation}
 	\label{eq:cs}
 \frac{d \sigma(B_0^s \to J/\psi\phi)}{dp_T} = \frac{N_s}{2 \Delta p_T \cdot \alpha \cdot \epsilon \cdot BR \cdot \mathcal{L}}
 \end{equation}
 
-where $\Delta p_T$ is the width of the $p_T$ region, $\alpha \cdot \epsilon$ is the total efficiency, BR is the branching ratio of the total decay chain, eq. \ref{eq:br}, and $\mathcal{L} = 179.7$ nb$^{-1}$  is the total integrated luminosity. Due of the quick transitions between particle and antiparticle indicated in \ref{sec:b0s}, both $B^0_s$ and $\bar{B^0_s}$ are formed in the collision, but only $B^0_s$ is considered, for this reason, the factor $\frac{1}{2}$ is included in the equation above.
+where $\Delta p_T$ is the width of the $p_T$ region, $\alpha \cdot \epsilon$ is the total efficiency, BR is the branching ratio of the total decay chain, eq. \ref{eq:br}, and $\mathcal{L} = 179.7$ nb$^{-1}$  is the total integrated luminosity. Due of the quick transitions between particle and antiparticle indicated in \ref{sec:b0s}, both $B^0_s$ and $\bar{B^0_s}$ are formed in the collision, but only $B^0_s$ is considered, for this reason, the factor $\frac{1}{2}$ is included in the equation above. 
 
+The top of fig. \ref{fig:cs} depicts the results of the $p_T$ differential cross-section. The plot shows a comparison with the fixed-order plus next-to-leading-logarithm (FONLL) predictions. The FONLL data has been calculated for pp collisions and the $B$ meson. A data escalation was performed by multiplying by the number of nucleons in the Pb nucleus, 208, and by the world average $B^{0}_s$ production fraction, $10.5 \%$ \cite{khachatryan2016study}. The error bars for the calculated differential cross-section represent systematic and statistical uncertainty. These will be discussed further in the following section. The FONLL prediction for a wider range of values is shown in the bottom of Fig. \ref{fig:cs}. The data is fitted with a curve. The total differential cross-section is estimated as $\frac{d \sigma}{dp_T} = (28.66 \pm 1.716) \ \mu\text{b}/\text{GeV}$
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{$p_T$ Differential cross-section for the $B^0_s$ meson, where a) corresponds to a comparison between predicted and calculated values and b) full plot of predicted values.}
+	\label{fig:cs}
+\end{figure*}
+ \cleardoublepage
 \section{Uncertainty in the differential cross-section}
 The uncertainties in the measurement of a quantity during a physics experiment can be classified by two types. The first type are the statistical uncertainties, which are related to the fact that multiple measurements of the same quantity can yield different results. Therefore, the value of such quantity is not precise, but fluctuates within a range. The measurement of this range is the statistical uncertainty \cite{sinervo2003definition}. The statistical uncertainties are calculated by \verb|ROOTFIT|, and in the case of the ML method, these are determined by the covariance matrix $\mathrm{var}[\vec{\Theta}]$ \cite{vsirca2016probability}:
 
@@ -99,11 +141,96 @@ The systematic uncertainties from the background are calculated in a similar fas
 	B_{PDF}^{'}(M_i) = \sum_{i=0}^{N} c_i T_i(M_i) 
 \end{equation}
 
-with \cite{mason2002chebyshev} $T_i(M_i) = \cos(iM_i)$ and $c_i$ the coefficients. The \verb|ROOTFIT| library assumes that for $T_0 = 1$, the coefficient is simply $c_i = 1$ \cite{chebyshev}. Using this model, a second value $N_b'$ for the number of background events is obtained and the systematic uncertainty from the background, $\sigma_{bkg}$, is derived from difference between $N_b$ and $N_b'$.
+with \cite{mason2002chebyshev} $T_i(M_i) = \cos(iM_i)$ and $c_i$ the coefficients. The \verb|ROOTFIT| library assumes that for $T_0 = 1$, the coefficient is simply $c_i = 1$ \cite{chebyshev}. Using this model, a second value $N_b'$ for the number of background events is obtained and the systematic uncertainty from the background, $\sigma_{bkg}$, is derived from difference between $N_b$ and $N_b'$. The results for systematic signal model are presented in Fig. \ref{fig:mass_ptbins_syssig} and for the background model in Fig. \ref{fig:mass_ptbins_sysbkg} The total region is considered in Fig. \ref{fig:mass_ptbins_sys} for both cases.
+
+\begin{figure}[htp!]
+	\centering
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$ and considering a systematic model for signal. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered.}
+	\label{fig:mass_ptbins_syssig}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
+	
+\end{figure}
+
+\begin{figure}[htp!]
+	\centering
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$ and considering a systematic model for background. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered.}
+	\label{fig:mass_ptbins_sysbkg}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
+	
+\end{figure}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for the $B^0_s$ meson reconstructed from the combined system $J\psi \phi$. a) corresponds to the systematic model for signal b) for background}
+	\label{fig:mass_ptbins_sys}
+\end{figure*}
+
+\cleardoublepage
 \subsection{Efficiency}
 
 \subsubsection{MC size}
 The uncertainties of the ratios defined for the acceptance and efficiency, $\delta \alpha$ and $\delta \epsilon$ are statistical. However, due to the finite size of the number of Monte Carlo samples used for reconstruction, they turn into systematic uncertainties when considering the differential cross-section. For practical purposes, the uncertainty of the total efficiency $\delta(\alpha \cdot \epsilon)$ is used instead of the individual uncertainties.
+
+
 \subsubsection{Track}
 
 The uncertainty in the efficiency of reconstruction of the tracks ($K^{+}K^{-}$) is considered a systematic uncertainty. In this paper, the value reported by \cite{cms2018tracking} will be used as the track efficiency uncertainty: $2.4\%$.

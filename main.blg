@@ -20,7 +20,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11440 items.
+Reallocating 'field_info' (item size: 4) to 11860 items.
 Database file #1: main-blx.bib
 Database file #2: Reference.bib
 Repeated entry---line 106 of file Reference.bib
@@ -34,45 +34,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 46 entries,
+You've used 49 entries,
             6393 wiz_defined-function locations,
-            1420 strings with 17057 characters,
-and the built_in function-call counts, 240511 in all, are:
-= -- 17143
-> -- 4187
-< -- 1191
-+ -- 5473
-- -- 1406
-* -- 15375
-:= -- 24427
+            1435 strings with 18100 characters,
+and the built_in function-call counts, 286855 in all, are:
+= -- 21231
+> -- 4635
+< -- 1250
++ -- 7006
+- -- 1649
+* -- 18878
+:= -- 30717
 add.period$ -- 0
-call.type$ -- 46
-change.case$ -- 775
+call.type$ -- 49
+change.case$ -- 809
 chr.to.int$ -- 54
-cite$ -- 90
-duplicate$ -- 25975
-empty$ -- 22806
-format.name$ -- 2530
-if$ -- 50114
+cite$ -- 96
+duplicate$ -- 30966
+empty$ -- 26565
+format.name$ -- 2962
+if$ -- 58753
 int.to.chr$ -- 0
-int.to.str$ -- 124
+int.to.str$ -- 132
 missing$ -- 0
-newline$ -- 1248
-num.names$ -- 2158
-pop$ -- 15698
+newline$ -- 1482
+num.names$ -- 2289
+pop$ -- 17129
 preamble$ -- 1
-purify$ -- 1012
+purify$ -- 1109
 quote$ -- 0
-skip$ -- 7951
+skip$ -- 8469
 stack$ -- 0
-substring$ -- 28102
-swap$ -- 5700
-text.length$ -- 869
-text.prefix$ -- 20
+substring$ -- 35941
+swap$ -- 6434
+text.length$ -- 953
+text.prefix$ -- 26
 top$ -- 1
-type$ -- 1538
+type$ -- 1640
 warning$ -- 0
-while$ -- 3294
+while$ -- 4195
 width$ -- 0
-write$ -- 1203
+write$ -- 1434
 (There were 2 error messages)

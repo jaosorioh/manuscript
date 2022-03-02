@@ -14,7 +14,7 @@ with the properties that it is normalized, $\int_{-\infty}^{\infty} f_X(x) \ dx 
 
 If the invariant mass of the $B^0_s$ is regarded as a random variable, then a PDF can be used to model its distribution or spectra. Since this mass spectra is the primary focus of this manuscript, a detailed description of the chosen PDF will be provided in the following section.
 \section{PDF for the invariant mass}
-The data associated to the mass distribution can be classified as either signal or background data. The signal data are events that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background data can be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
+The data associated to the mass distribution can be classified as either signal or background data. The signal data are events that truly correspond to the $B^0_s$ decaying in the desired channel, whereas the background data could be either partially reconstructed $B^0_s$ mesons or events that, while meeting selection criteria, do not correspond to this meson \cite{mejia2012medida}.
 
 The signal data is modeled using a PDF consisting of the sum of two gaussian distributions with the same mean value but different standard deviations:
 
@@ -71,7 +71,7 @@ with respect to $\Theta$:
 
 with $ j = 1, 2, ..., M$. The optimal value for the unknown parameter, $\Theta_j$, can be obtained by solving the respective differential equation.
 
-There is a extended version of the ML method, used when the number of of measured values $N$ is also an unknown parameter. In this version, it is assumed that $N$ follows a Poisson distribution, therefore, the likelihood function changes to \cite{bonanomi2021response}:
+There is a extended version of the ML method, used when the number of measured values $N$ is also an unknown parameter. In this version, it is assumed that $N$ follows a Poisson distribution. The likelihood function changes to \cite{bonanomi2021response}:
 
 \begin{equation}
 	L(\vec{x} \ | \ \vec{\Theta}, \nu) = \frac{e^{-\nu} \nu^N}{N!} L(\vec{x} \ | \ \vec{\Theta})
@@ -80,15 +80,13 @@ There is a extended version of the ML method, used when the number of of measure
 where $\nu$ is the expected number of observations. 
 If $\nu$ does not depend of $\Theta$, then $\nu = N$. 
 
-Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. As a result, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events are of interest and their values are unknown in advance.
+Typically, no analytical solution exists for this maximization problem, necessitating the use of numerical methods. Therefore, an algorithm in \verb|C++| is written in which the library \verb|ROOTFIT| is used to perform the ML method in the extended version. This version was chosen because the number of signal and background events are of interest and their values are unknown in advance.
 
 The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \ \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The collision data of the invariant mass is fitted and the values for the number of signal and background events, $N_{B^0_s}$ and $N_{bkg}$ are obtained. 
 
 \section{$p_T$ and $|y|$ bins}
 
-The influence of transverse momentum $p_T$ of the $B_0^s$ meson on its mass distribution is investigated. To accomplish this, the dataset is partitioned into multiple regions or bins of $p_T$. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. 
-
-The results for the MC simulation data in each of the $p_T$ bins are shown in Fig. \ref{fig:massMC_ptbins}. The table \ref{table:mc_ptbins} displays the values obtained in the MC data for the parameters $f_s$, $\sigma_1$ and $\sigma_2$. These values were used in the collision dataset. Fig. \ref{fig:mass_ptbins} shows the mass distributions for the collision dataset and includes the fit for the combinational background. The parameter $\sigma$ shown in the figures was calculated by adding $\sigma_1$ and $\sigma_2$ from eq. \ref{eq:sigpdf} in the following manner:
+The influence of the transverse momentum $p_T$ of the $B_0^s$ meson on its mass distribution is investigated. To accomplish this, the dataset is partitioned into multiple regions or bins of $p_T$. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. The results for the MC simulation data in each of the $p_T$ bins are shown in Fig. \ref{fig:massMC_ptbins}. The table \ref{table:mc_ptbins} displays the values obtained in the MC data for the parameters $f_s$, $\sigma_1$ and $\sigma_2$. These values were used in the collision dataset. Fig. \ref{fig:mass_ptbins} shows the mass distributions for the collision dataset and includes the fit for the combinational background. The parameter $\sigma$ shown in the figures was calculated by adding $\sigma_1$ and $\sigma_2$ from eq. \ref{eq:sigpdf} in the following manner:
 
 \begin{equation}
 	\sigma = \sqrt{f_s \sigma_1^2 + (1-f_s)\sigma_2^2}
@@ -136,7 +134,7 @@ The results for the MC simulation data in each of the $p_T$ bins are shown in Fi
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF}
 		\caption{}%
 	\end{subfigure}
-	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi \phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
 	\label{fig:massMC_ptbins}
 \end{figure*}
 
@@ -168,7 +166,7 @@ The results for the MC simulation data in each of the $p_T$ bins are shown in Fi
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF}
 		\caption{}%
 	\end{subfigure}
-	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
 	\label{fig:mass_ptbins}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
 	
@@ -218,7 +216,7 @@ Similarly, the influence of the rapidity $|y|$ of $B_0^s$ is investigated. The b
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF}
 		\caption{}%
 	\end{subfigure}
-	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi \phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
 	\label{fig:massMC_ybins}
 \end{figure*}
 
@@ -248,26 +246,26 @@ Similarly, the influence of the rapidity $|y|$ of $B_0^s$ is investigated. The b
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF}
 		\caption{}%
 	\end{subfigure}
-	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J\psi \phi$. Four intervals for the transverse momentum $|y|(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
 	\label{fig:mass_ybins}
 \end{figure*}
 
 
-Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the MC simulation and collision data, considering the full region for $p_T$ and $|y|$. 
+Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the MC simulation and collision data, considering the full region for $p_T$ and $|y|$. The final value for the invariant mass is $M(B^0_s) = 5367.02 \pm 0.86 \text{ MeV}$. A comparison with the value reported in the PDG of $5366.88 \pm 0.14$ MeV \cite{pdgstrange}, indicates that this result is consistent and was measured correctly.
 
 \begin{figure*}
 	\centering
-	\begin{subfigure}[b]{0.475\textwidth}
+	\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC.PDF}
 		\caption{}%
 	\end{subfigure}
 	\vskip\baselineskip
-		\begin{subfigure}[b]{0.475\textwidth}
+		\begin{subfigure}[b]{0.7\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit.PDF}
 		\caption{}%
 	\end{subfigure}
-	\caption{Invariant mass spectra for the $B^0_s$ meson reconstructed from the combined system $J\psi\phi$. a) corresponds to the MC simulation and b) to the p-Pb collision.}
+	\caption{Invariant mass spectra for the $B^0_s$ meson reconstructed from the combined system $J\psi \phi$. a) corresponds to the MC simulation and b) to the p-Pb collision.}
 	\label{fig:mass}
 \end{figure*}
