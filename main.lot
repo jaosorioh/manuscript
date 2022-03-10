@@ -6,15 +6,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Criteria for the selection and reconstruction of the $B^0_s \to J/\psi \phi $ decay using the $J/\psi \phi \to \mu ^{+}\mu ^{-}$ and $\phi (1020) \to K^{+}K^{-}$ decays.\relax }}{21}{table.caption.15}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Criteria for the selection and reconstruction of the $B^0_s \to J/\psi \phi $ decay using the $J/\psi \phi \to \mu ^{+}\mu ^{-}$ and $\phi (1020) \to K^{+}K^{-}$ decays.\relax }}{22}{table.caption.15}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Values of the parameters obtained in the MC data for different $p_T$ intervals. These same parameters are used for the collision data.\relax }}{27}{table.caption.16}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Values of the parameters obtained in the MC data for different $|y|$ intervals. These same parameters are used for the collision data.\relax }}{27}{table.caption.19}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Values of the parameters obtained in the MC data for different $p_T$ intervals. These same parameters are used for the collision data.\relax }}{28}{table.caption.16}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces The $N_{B_s^{0}}$ values obtained and efficiencies computed are shown with their respective statistical uncertainties. The value of ${\frac {d \sigma }{dp_T}}$ computed directly from these results is also shown. For ${\frac {d \sigma }{dp_T}}$, just the $N_{B_s^{0}}$ error propagation is present.\relax }}{35}{table.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Systematic uncertainties on ${\frac {d \sigma }{dp_T}}$ from alternative fitting strategies described in the text. The total systematic uncertainty is the sum in quadrature of the individual uncertainties. Statistical uncertainty is show too.\relax }}{43}{table.caption.26}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

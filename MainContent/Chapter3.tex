@@ -11,7 +11,7 @@ As explained in \ref{subsection:trig_sys} a trigger needs to be implemented in o
 To reconstruct the $B^0_s$ meson via the chosen channel, the $J/\psi$ and $\phi (1020)$ mesons must first be reconstructed. Two muon candidates are required for the $J/\psi$ meson, and two kaons for the $\phi (1020)$ meson. The specific selection criteria for such candidates will be described in the following sub-sections.
 \subsection{J/$\psi$ reconstruction}
 
-Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$). Both muons are required to classify as Soft Muons. They must originate from a common vertex, with a  $\chi^2$ vertex probability, $J_{pro} > 1\%$. It is also necessary for both muons to have $|\eta| < 2.4$ and the following $p_T$:
+Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$). Both muons are required to classify as Soft Muons \cite{sirunyan2018performance}. They must originate from a common vertex, with a  $\chi^2$ vertex probability, $J_{pro} > 1\%$. It is also necessary for both muons to have $|\eta| < 2.4$ and the following $p_T$:
 
 \[ \begin{cases} 
 	p_T > 3.3 \ \text{GeV} & |\eta| < 1.1 \\
@@ -22,9 +22,9 @@ Only pairs of muons with opposite charge sign are considered ($\mu^{+}\mu^{-}$).
 
 As a final condition for selecting a muon pair, the dimuon invariant mass must be in the range $[2.9, 3.3]$ GeV.
 \subsection{$\phi(1020)$ reconstruction}
-After selecting the appropriate muon candidate tracks, and because the CMS detector cannot correctly identify the tracks, it is assumed that the remaining tracks are kaon tracks, and thus all of them are initially considered for the $\phi(1020)$ reconstruction. However, in order for two pairs of kaons to be valid candidates, they must have opposite charge ($K^{+}K^{-}$), $|\eta| < 2.4$ and have high purity. The invariant mass of the kaon-pair must be between $0.010$ GeV around the reported mass for $\phi(1020)$ in the PDG of $1.01946$ GeV.
+After selecting the appropriate muon candidate tracks, and because the CMS detector cannot correctly identify the tracks, it is assumed that the remaining tracks are kaon tracks, and thus all of them are initially considered for the $\phi(1020)$ reconstruction. However, in order for two pairs of kaons to be valid candidates, they must have opposite charge ($K^{+}K^{-}$), $|\eta| < 2.4$ and have high purity \cite{cms2014description}. The invariant mass of the kaon-pair must be between $0.010$ GeV around the reported mass for $\phi(1020)$ in the PDG of $1.01946$ GeV.
 \subsection{$B_s^0$ reconstruction}
-Once the $J/\psi$ and $\phi(1020)$ candidates are properly reconstructed, they are required to have a common vertex, which is chosen as the $B_s^0$ vertex. The invariant mass of the $J/\psi$ - $\phi$ pair must be in the range $[5.240, 5.490]$ GeV, also the $p_T$ for the $B_0^s$ candidate must be in the range $[7, 50]$ GeV. 
+Once the $J/\psi$ and $\phi(1020)$ candidates are properly reconstructed, they are required to have a common vertex, which is chosen as the $B^0_s$ vertex. The invariant mass of the $J/\psi$ - $\phi$ pair must be in the range $[5.240, 5.490]$ GeV, also the $p_T$ for the $B_s^0$ candidate must be in the range $[7, 50]$ GeV. 
 
 Due to the presence of high combinational background, it is important to find a set of additional conditions in the selection of the $B^0_s$ candidates, among the many that could be established, that reduces the number of background events while increasing the number of signal events. This can be accomplished by maximizing the signal's statistical significance, which is defined as:
 
@@ -33,7 +33,7 @@ Due to the presence of high combinational background, it is important to find a 
 	S = \frac{N_{\text{s}}}{\sqrt{N_{\text{s}} + N_{\text{b}}}}
 \end{equation}
 
-with respect to a set of parameters. The parameters used in this case were the decay-length significance, $c\tau / \sigma_{c\tau}$, $p_T$ of kaons and $\chi^2$ vertex probability of $B^0_s$, $B_{pro}$. The following conditions where imposed:
+with respect to a set of parameters. The parameters used in this case were the decay-length significance, $c\tau / \sigma_{c\tau}$, $p_T$ of kaons and $\chi^2$ vertex probability of $B^0_s$, $B_{pro}$. The following conditions were imposed:
 
 \begin{itemize}
 	\item  $(p_T)_{K_i} > a$, with $a \in [0.5, 1.2]$ GeV.
