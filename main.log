@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  9 MAR 2022 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  20 MAR 2022 00:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -1127,7 +1127,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./MainContent/Figs/SM-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<MainContent/Figs/SM-eps-converted-to.pdf, id=389, 1210.5225pt x 927.465pt>
+<MainContent/Figs/SM-eps-converted-to.pdf, id=422, 1210.5225pt x 927.465pt>
 File: MainContent/Figs/SM-eps-converted-to.pdf Graphic file (type pdf)
 <use MainContent/Figs/SM-eps-converted-to.pdf>
 Package pdftex.def Info: MainContent/Figs/SM-eps-converted-to.pdf  used on inpu
@@ -1151,7 +1151,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [7]
-<MainContent/Figs/QGP.png, id=429, 1023.825pt x 672.5125pt>
+<MainContent/Figs/QGP.png, id=462, 1023.825pt x 672.5125pt>
 File: MainContent/Figs/QGP.png Graphic file (type png)
 <use MainContent/Figs/QGP.png>
 Package pdftex.def Info: MainContent/Figs/QGP.png  used on input line 31.
@@ -1159,19 +1159,19 @@ Package pdftex.def Info: MainContent/Figs/QGP.png  used on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 35.
+(hyperref)                removing `math shift' on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 35.
+(hyperref)                removing `superscript' on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 35.
+(hyperref)                removing `subscript' on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 35.
+(hyperref)                removing `math shift' on input line 36.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1184,33 +1184,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 39.
+(hyperref)                removing `math shift' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 39.
+(hyperref)                removing `superscript' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 39.
+(hyperref)                removing `subscript' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 39.
+(hyperref)                removing `\to' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\psi' on input line 39.
+(hyperref)                removing `\psi' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 39.
+(hyperref)                removing `\phi' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 39.
+(hyperref)                removing `math shift' on input line 40.
 
-)
+) (MainContent/Chapter2.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1219,25 +1219,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[9 <./MainContent/Figs/QGP.png>] (MainContent/Chapter2.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[10]
+[9 <./MainContent/Figs/QGP.png>]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-[11
+[10
 
 ]
-<MainContent/Figs/LHC.png, id=480, 1284.8pt x 905.3825pt>
+<MainContent/Figs/LHC.png, id=509, 1284.8pt x 905.3825pt>
 File: MainContent/Figs/LHC.png Graphic file (type png)
 <use MainContent/Figs/LHC.png>
 Package pdftex.def Info: MainContent/Figs/LHC.png  used on input line 15.
@@ -1251,8 +1242,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[12 <./MainContent/Figs/LHC.png>]
-<MainContent/Figs/cms_structure.png, id=496, 2392.43813pt x 1690.06406pt>
+[11 <./MainContent/Figs/LHC.png>]
+<MainContent/Figs/cms_structure.png, id=525, 2392.43813pt x 1690.06406pt>
 File: MainContent/Figs/cms_structure.png Graphic file (type png)
 <use MainContent/Figs/cms_structure.png>
 Package pdftex.def Info: MainContent/Figs/cms_structure.png  used on input line
@@ -1271,8 +1262,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[13 <./MainContent/Figs/cms_structure.png>]
-<MainContent/Figs/cms_coordinate_system.png, id=508, 260.4129pt x 127.9179pt>
+[12 <./MainContent/Figs/cms_structure.png>]
+<MainContent/Figs/cms_coordinate_system.png, id=537, 260.4129pt x 127.9179pt>
 File: MainContent/Figs/cms_coordinate_system.png Graphic file (type png)
 <use MainContent/Figs/cms_coordinate_system.png>
 Package pdftex.def Info: MainContent/Figs/cms_coordinate_system.png  used on in
@@ -1287,7 +1278,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[14 <./MainContent/Figs/cms_coordinate_system.png>]
+[13 <./MainContent/Figs/cms_coordinate_system.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[14]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1305,7 +1305,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[16]
+[16]) (MainContent/Chapter3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 18.85004pt, for example:
@@ -1314,16 +1314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[17]) (MainContent/Chapter3.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[18]
+[17]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1351,7 +1342,7 @@ Overfull \hbox (7.32056pt too wide) in paragraph at lines 5--6
 t/m/n/12 /PADoubleMuon/PARun2016C-PromptReco-v1/AO
  []
 
-[19
+[18
 
 ]
 
@@ -1386,7 +1377,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 26.
@@ -1411,7 +1402,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21])
+[20])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1420,7 +1411,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22] (MainContent/Chapter4.tex
+[21] (MainContent/Chapter4.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1429,7 +1420,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[22]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1451,7 +1442,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[24
+[23
 
 ]
 
@@ -1462,7 +1453,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[24]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1471,7 +1462,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 87.
@@ -1485,99 +1476,77 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 87.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 87.
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 87.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28]
-<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF, id=690, 569.12625pt 
+<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF, id=705, 569.12625pt 
 x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.P
-DF  used on input line 124.
+DF  used on input line 99.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF, id=691, 569.12625pt
+<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF, id=706, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF Graphic file (t
 ype pdf)
 <use MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.
-PDF  used on input line 130.
+PDF  used on input line 105.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.PDF, id=692, 569.12625pt
+<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.PDF, id=707, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.PDF Graphic file (t
 ype pdf)
 <use MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_20.
-PDF  used on input line 136.
+PDF  used on input line 111.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF, id=693, 569.12625pt
+<MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF, id=708, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF Graphic file (t
 ype pdf)
 <use MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_20_50.
-PDF  used on input line 142.
+PDF  used on input line 117.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF, id=694, 569.12625pt x 408.52
-625pt>
-File: MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF Graphic file (type pdf)
-<use MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF  used
- on input line 156.
+<MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF, id=709, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF Graphic file (
+type pdf)
+<use MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5
+.PDF  used on input line 145.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF, id=695, 569.12625pt x 408.5
-2625pt>
-File: MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF Graphic file (type pdf)
-
-<use MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF  use
-d on input line 162.
+<MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF, id=710, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF Graphic file (
+type pdf)
+<use MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0
+.PDF  used on input line 151.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF, id=696, 569.12625pt x 408.5
-2625pt>
-File: MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF Graphic file (type pdf)
-
-<use MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF  use
-d on input line 168.
+<MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6.PDF, id=711, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6.PDF Graphic file (
+type pdf)
+<use MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6
+.PDF  used on input line 157.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF, id=697, 569.12625pt x 408.5
-2625pt>
-File: MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF Graphic file (type pdf)
-
-<use MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF  use
-d on input line 174.
+<MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF, id=712, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF Graphic file (
+type pdf)
+<use MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4
+.PDF  used on input line 163.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFitMC.PDF, id=698, 569.12625pt x 408.52625pt>
-File: MainContent/Figs/mass/mass_BsFitMC.PDF Graphic file (type pdf)
-<use MainContent/Figs/mass/mass_BsFitMC.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC.PDF  used on input 
-line 187.
-(pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
-<MainContent/Figs/mass/mass_BsFit.PDF, id=699, 569.12625pt x 408.52625pt>
-File: MainContent/Figs/mass/mass_BsFit.PDF Graphic file (type pdf)
-<use MainContent/Figs/mass/mass_BsFit.PDF>
-Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit.PDF  used on input li
-ne 193.
-(pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
-) (MainContent/Chapter5.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1586,7 +1555,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF, page is rotate
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_7_10.PDF, page is rotate
 d 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_10_15.PDF, pag
 e is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_best1_ptbins_15_
 20.PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_best1
@@ -1599,11 +1577,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30 <./MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF, page is rotated 90 deg
-rees> <./MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF, page is rotated 90 
-degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF, page is rotated 
-90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF, page is rotat
-ed 90 degrees>]
+[28 <./MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF, page is rota
+ted 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF, 
+page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1
+.0_1.6.PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFitMC_b
+est1_ybins_1.6_2.4.PDF, page is rotated 90 degrees>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1612,7 +1590,120 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31 <./MainContent/Figs/mass/mass_BsFitMC.PDF, page is rotated 90 degrees> <./M
+[29]
+<MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF, id=1081, 569.12625pt x 408.5
+2625pt>
+File: MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF Graphic file (type pdf)
+<use MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF  used
+ on input line 202.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF, id=1082, 569.12625pt x 408.
+52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF Graphic file (type pdf)
+
+<use MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF  use
+d on input line 208.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF, id=1083, 569.12625pt x 408.
+52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF Graphic file (type pdf)
+
+<use MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF  use
+d on input line 214.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF, id=1084, 569.12625pt x 408.
+52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF Graphic file (type pdf)
+
+<use MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF  use
+d on input line 220.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF, id=1085, 569.12625pt x 408
+.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF Graphic file (type pdf
+)
+<use MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF  us
+ed on input line 234.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF, id=1086, 569.12625pt x 408
+.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF Graphic file (type pdf
+)
+<use MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF  us
+ed on input line 240.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF, id=1087, 569.12625pt x 408
+.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF Graphic file (type pdf
+)
+<use MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF  us
+ed on input line 246.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF, id=1088, 569.12625pt x 408
+.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF Graphic file (type pdf
+)
+<use MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF  us
+ed on input line 252.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFitMC.PDF, id=1089, 569.12625pt x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFitMC.PDF Graphic file (type pdf)
+<use MainContent/Figs/mass/mass_BsFitMC.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFitMC.PDF  used on input 
+line 265.
+(pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
+<MainContent/Figs/mass/mass_BsFit.PDF, id=1090, 569.12625pt x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit.PDF Graphic file (type pdf)
+<use MainContent/Figs/mass/mass_BsFit.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit.PDF  used on input li
+ne 271.
+(pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
+) (MainContent/Chapter5.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30
+
+ <./MainContent/Figs/mass/mass_BsFit_ptbins_7_10.PDF, page is rotated 90 degree
+s> <./MainContent/Figs/mass/mass_BsFit_ptbins_10_15.PDF, page is rotated 90 deg
+rees> <./MainContent/Figs/mass/mass_BsFit_ptbins_15_20.PDF, page is rotated 90 
+degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_20_50.PDF, page is rotated 
+90 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31 <./MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF, page is rotated 90 d
+egrees> <./MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF, page is rotated 
+90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF, page is rota
+ted 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF, page is 
+rotated 90 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32 <./MainContent/Figs/mass/mass_BsFitMC.PDF, page is rotated 90 degrees> <./M
 ainContent/Figs/mass/mass_BsFit.PDF, page is rotated 90 degrees>]
 Chapter 5.
 
@@ -1647,28 +1738,46 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[32
-
+[33
 
 ]
-<MainContent/Figs/effy/alpha_ptbins.PDF, id=1150, 569.12625pt x 408.52625pt>
+<MainContent/Figs/effy/alpha_ptbins.PDF, id=1542, 569.12625pt x 408.52625pt>
 File: MainContent/Figs/effy/alpha_ptbins.PDF Graphic file (type pdf)
 <use MainContent/Figs/effy/alpha_ptbins.PDF>
 Package pdftex.def Info: MainContent/Figs/effy/alpha_ptbins.PDF  used on input 
 line 33.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/effy/epsilon_ptbins.PDF, id=1151, 569.12625pt x 408.52625pt>
+<MainContent/Figs/effy/epsilon_ptbins.PDF, id=1543, 569.12625pt x 408.52625pt>
 File: MainContent/Figs/effy/epsilon_ptbins.PDF Graphic file (type pdf)
 <use MainContent/Figs/effy/epsilon_ptbins.PDF>
 Package pdftex.def Info: MainContent/Figs/effy/epsilon_ptbins.PDF  used on inpu
 t line 38.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/effy/totaleffy_ptbins.PDF, id=1152, 569.12625pt x 408.52625pt
+<MainContent/Figs/effy/totaleffy_ptbins.PDF, id=1544, 569.12625pt x 408.52625pt
 >
 File: MainContent/Figs/effy/totaleffy_ptbins.PDF Graphic file (type pdf)
 <use MainContent/Figs/effy/totaleffy_ptbins.PDF>
 Package pdftex.def Info: MainContent/Figs/effy/totaleffy_ptbins.PDF  used on in
 put line 44.
+(pdftex.def)             Requested size: 375.80544pt x 269.77153pt.
+<MainContent/Figs/effy/alpha_ybins.PDF, id=1545, 569.12625pt x 408.52625pt>
+File: MainContent/Figs/effy/alpha_ybins.PDF Graphic file (type pdf)
+<use MainContent/Figs/effy/alpha_ybins.PDF>
+Package pdftex.def Info: MainContent/Figs/effy/alpha_ybins.PDF  used on input l
+ine 55.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/effy/epsilon_ybins.PDF, id=1546, 569.12625pt x 408.52625pt>
+File: MainContent/Figs/effy/epsilon_ybins.PDF Graphic file (type pdf)
+<use MainContent/Figs/effy/epsilon_ybins.PDF>
+Package pdftex.def Info: MainContent/Figs/effy/epsilon_ybins.PDF  used on input
+ line 60.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/effy/totaleffy_ybins.PDF, id=1547, 569.12625pt x 408.52625pt>
+
+File: MainContent/Figs/effy/totaleffy_ybins.PDF Graphic file (type pdf)
+<use MainContent/Figs/effy/totaleffy_ybins.PDF>
+Package pdftex.def Info: MainContent/Figs/effy/totaleffy_ybins.PDF  used on inp
+ut line 66.
 (pdftex.def)             Requested size: 375.80544pt x 269.77153pt.
 
 
@@ -1679,7 +1788,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./MainContent/Figs/effy/alpha_ptbins.PDF, page is rotated 90 degrees> <./M
+[34 <./MainContent/Figs/effy/alpha_ptbins.PDF, page is rotated 90 degrees> <./M
 ainContent/Figs/effy/epsilon_ptbins.PDF, page is rotated 90 degrees> <./MainCon
 tent/Figs/effy/totaleffy_ptbins.PDF, page is rotated 90 degrees>]
 
@@ -1690,26 +1799,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34]
-<MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF, id=1311, 569.12625pt x 48
+[35 <./MainContent/Figs/effy/alpha_ybins.PDF, page is rotated 90 degrees> <./Ma
+inContent/Figs/effy/epsilon_ybins.PDF, page is rotated 90 degrees> <./MainConte
+nt/Figs/effy/totaleffy_ybins.PDF, page is rotated 90 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+<MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF, id=1840, 569.12625pt x 48
 9.83pt>
 File: MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF Graphic file (type pd
 f)
 <use MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF>
 Package pdftex.def Info: MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF  u
-sed on input line 76.
+sed on input line 106.
 (pdftex.def)             Requested size: 328.82707pt x 283.02531pt.
-<MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF, id=1312, 569.12625p
+<MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF, id=1841, 569.12625p
 t x 489.83pt>
 File: MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF Graphic file (t
 ype pdf)
 <use MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF>
 Package pdftex.def Info: MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.
-PDF  used on input line 82.
+PDF  used on input line 112.
 (pdftex.def)             Requested size: 328.82707pt x 283.02531pt.
 
 
-LaTeX Warning: Float too large for page by 9.32059pt on input line 87.
+LaTeX Warning: Float too large for page by 9.32059pt on input line 117.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1719,7 +1839,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
+[37]
+<MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev.PDF, id=1848, 569.12625pt x 489
+.83pt>
+File: MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev.PDF Graphic file (type pdf
+)
+<use MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev.PDF>
+Package pdftex.def Info: MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev.PDF  us
+ed on input line 123.
+(pdftex.def)             Requested size: 328.82707pt x 283.02531pt.
+<MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev_curve_ybins.PDF, id=1849, 569.1
+2625pt x 489.83pt>
+File: MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev_curve_ybins.PDF Graphic fi
+le (type pdf)
+<use MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev_curve_ybins.PDF>
+Package pdftex.def Info: MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev_curve_y
+bins.PDF  used on input line 129.
+(pdftex.def)             Requested size: 328.82707pt x 283.02531pt.
+
+
+LaTeX Warning: Float too large for page by 9.32059pt on input line 134.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1728,7 +1868,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36 <./MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF, page is rotated 90 
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev.PDF, page is rotated 90 
 degrees> <./MainContent/Figs/effy/Histo_Bs_CS_pt_FONLL_8Tev_curve.PDF, page is 
 rotated 90 degrees>]
 
@@ -1739,7 +1888,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37
+[40 <./MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev.PDF, page is rotated 90 d
+egrees> <./MainContent/Figs/effy/Histo_Bs_CS_y_FONLL_8Tev_curve_ybins.PDF, page
+ is rotated 90 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41
 
 ]
 
@@ -1750,87 +1910,151 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
-<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF, id=1436, 569.12625pt 
+[42]
+<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF, id=2067, 569.12625pt 
 x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF Graphic file (typ
 e pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PD
-F  used on input line 157.
+F  used on input line 210.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF, id=1437, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF, id=2068, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.P
-DF  used on input line 163.
+DF  used on input line 216.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.PDF, id=1438, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.PDF, id=2069, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.P
-DF  used on input line 169.
+DF  used on input line 222.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.PDF, id=1439, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.PDF, id=2070, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_20_50.P
-DF  used on input line 175.
+DF  used on input line 228.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF, id=1440, 569.12625pt 
+<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF, id=2071, 569.12625pt 
 x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF Graphic file (typ
 e pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PD
-F  used on input line 189.
+F  used on input line 242.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF, id=1441, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF, id=2072, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.P
-DF  used on input line 195.
+DF  used on input line 248.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.PDF, id=1442, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.PDF, id=2073, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.P
-DF  used on input line 201.
+DF  used on input line 254.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.PDF, id=1443, 569.12625pt
+<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.PDF, id=2074, 569.12625pt
  x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.PDF Graphic file (ty
 pe pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_20_50.P
-DF  used on input line 207.
+DF  used on input line 260.
 (pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF, id=1444, 569.12625pt 
+<MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF, id=2075, 569.12625pt 
 x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF Graphic file (typ
 e pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PD
-F  used on input line 220.
+F  used on input line 275.
 (pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
-<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF, id=1445, 569.12625pt 
+<MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF, id=2076, 569.12625pt 
 x 408.52625pt>
 File: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF Graphic file (typ
 e pdf)
 <use MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF>
 Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PD
-F  used on input line 226.
+F  used on input line 281.
 (pdftex.def)             Requested size: 328.82707pt x 236.04774pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.0_0.5.PDF, id=2077, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.0_0.5.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.0_0.5.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.0_0.5.
+PDF  used on input line 293.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.5_1.0.PDF, id=2078, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.5_1.0.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.5_1.0.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.5_1.0.
+PDF  used on input line 299.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.0_1.6.PDF, id=2079, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.0_1.6.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.0_1.6.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.0_1.6.
+PDF  used on input line 306.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.6_2.4.PDF, id=2080, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.6_2.4.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.6_2.4.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.6_2.4.
+PDF  used on input line 312.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.0_0.5.PDF, id=2081, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.0_0.5.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.0_0.5.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.0_0.5.
+PDF  used on input line 327.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.5_1.0.PDF, id=2082, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.5_1.0.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.5_1.0.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.5_1.0.
+PDF  used on input line 333.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.0_1.6.PDF, id=2083, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.0_1.6.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.0_1.6.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.0_1.6.
+PDF  used on input line 340.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
+<MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.6_2.4.PDF, id=2084, 569.12625p
+t x 408.52625pt>
+File: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.6_2.4.PDF Graphic file (t
+ype pdf)
+<use MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.6_2.4.PDF>
+Package pdftex.def Info: MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.6_2.4.
+PDF  used on input line 346.
+(pdftex.def)             Requested size: 223.13649pt x 160.17236pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1840,7 +2064,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[43]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1849,7 +2073,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF, page is rotated
+[44 <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_10.PDF, page is rotated
  90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_10_15.PDF, page 
 is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_15_20.
 PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_sys
@@ -1862,7 +2086,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF, page is rotated
+[45 <./MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_10.PDF, page is rotated
  90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_10_15.PDF, page 
 is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_15_20.
 PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_sys
@@ -1875,9 +2099,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF, page is rotated
+[46 <./MainContent/Figs/mass/mass_BsFit_ptbins_syssig_7_50.PDF, page is rotated
  90 degrees> <./MainContent/Figs/mass/mass_BsFit_ptbins_sysbkg_7_50.PDF, page i
-s rotated 90 degrees>]) (MainContent/Chapter6.tex
+s rotated 90 degrees>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1886,17 +2110,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43
+[47 <./MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.0_0.5.PDF, page is rotat
+ed 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_syssig_0.5_1.0.PDF, pa
+ge is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_syssig_1.0_
+1.6.PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_
+syssig_1.6_2.4.PDF, page is rotated 90 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.0_0.5.PDF, page is rotat
+ed 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_0.5_1.0.PDF, pa
+ge is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_sysbkg_1.0_
+1.6.PDF, page is rotated 90 degrees> <./MainContent/Figs/mass/mass_BsFit_ybins_
+sysbkg_1.6_2.4.PDF, page is rotated 90 degrees>]) (MainContent/Chapter6.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49
 
 ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
 Chapter 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [44
+) [51
 
-] [45
+] [52
 
 
 ]
@@ -1908,7 +2167,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
+[53]
 Overfull \hbox (11.38184pt too wide) in paragraph at lines 179--179
 []\OT1/cmr/m/n/12 CERN. \OT1/cmr/m/it/12 GEMS (GAS ELEC-TRON MUL-TI-PLIER)\OT1/
 cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : 
@@ -1930,7 +2189,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
+[54]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1939,9 +2198,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48] (main.aux)
+[55] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A953C72F5A0A1B3158CF325CB12E1E8;6416.
+(rerunfilecheck)             Checksum: 7D1FCCED3BBD4E81DDDBD793098332EA;6462.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1951,10 +2210,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 49 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23544 strings out of 478864
- 401534 string characters out of 2858517
- 1015500 words of memory out of 3000000
- 40875 multiletter control sequences out of 15000+600000
+ 23720 strings out of 478864
+ 410466 string characters out of 2858517
+ 1022488 words of memory out of 3000000
+ 41011 multiletter control sequences out of 15000+600000
  425669 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,81p,1847b,1560s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1977,9 +2236,9 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (58 pages, 5052462 bytes).
+Output written on main.pdf (65 pages, 5421734 bytes).
 PDF statistics:
- 2106 PDF objects out of 2487 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3110 PDF objects out of 3580 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 584 words of extra memory for PDF output out of 10000 (max. 10000000)
 

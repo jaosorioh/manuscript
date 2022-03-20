@@ -84,38 +84,13 @@ Typically, no analytical solution exists for this maximization problem, necessit
 
 The fit is done initially on the MC data, with all parameters set free. Then, when using the real dataset, the parameters $\sigma_1, \ \sigma_2$, and $f_s$ in the signal PDF are fixed to the values obtained with the MC data. The complexity of the fit is considerably decreased in this manner since there are less parameters to be determined by the ML extended method. The background PDF, on the other hand, has no alteration. The collision data of the invariant mass is fitted and the values for the number of signal and background events, $N_{B^0_s}$ and $N_{bkg}$ are obtained. 
 
-\section{$p_T$ bins}
+\section{$p_T$ and $|y|$ bins}
 
-The influence of the transverse momentum $p_T$ of the $B_s^0$ meson on its mass distribution is investigated. To accomplish this, the dataset is partitioned into multiple regions or bins of $p_T$. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. The results for the MC simulation data in each of the $p_T$ bins are shown in Fig. \ref{fig:massMC_ptbins}. 
+The influence of the transverse momentum $p_T$ of the $B_s^0$ meson on its mass distribution is investigated. To accomplish this, the dataset is partitioned into multiple regions or bins of $p_T$. These bins have been chosen in order to provide helpful information on the statistics of the mass. The following boundaries determine the bins: $[7, 10, 15, 20, 50]$ GeV. In each of these regions, the mass spectrum is fitted. Similarly, investigations with the rapidity $|y|$ have been carried out using the following bin boundaries: $[0, 0.5, 1, 1.6, 2.4]$ GeV.
 
-The table \ref{table:mc_ptbins} displays the values obtained in the MC data for the parameters $f_s$, $\sigma_1$ and $\sigma_2$. These values were used in the collision dataset. Fig. \ref{fig:mass_ptbins} shows the mass distributions for the collision dataset and includes the fit for the combinational background. The parameter $\sigma$ shown in the figures was calculated by adding $\sigma_1$ and $\sigma_2$ from eq. \ref{eq:sigpdf} in the following manner:
 
-\begin{equation}
-	\sigma = \sqrt{f_s \sigma_1^2 + (1-f_s)\sigma_2^2}
-\end{equation}
+The results for the MC simulation data are shown in Figs. \ref{fig:massMC_ptbins} and \ref{fig:massMC_ybins}. The tables \ref{table:mc_ptbins} and \ref{table:mc_ybins} display the values obtained in the MC data for the parameters $f_s$, $\sigma_1$ and $\sigma_2$. The collision data was fitted with the parameters set to these values.
 
-\begin{table}[htp!]
-	
-	\begin{center}
-		\begin{tabular}{|c|c|c|c|}
-			\hline
-			\textbf{$\mathbf{p_T}$ bin (GeV)} & \ $\mathbf{f_s}$ & \textbf{$\mathbf{\sigma_1}$ (MeV) }& \textbf{$\mathbf{\sigma_2}$ (MeV)}\\ \hline
-			[7, 10] & 0.423 $\pm$ 0.021 & 11.367 $\pm$ 0.455 &28.400 $\pm$ 0.563\\ \hline 
-			[10, 15] & 0.528 $\pm$ 0.065 & 9.578 $\pm$ 0.842 &24.702 $\pm$ 1.579\\ \hline 
-			[15, 20] & 0.480 $\pm$ 0.086 & 8.446 $\pm$ 1.026 &21.259 $\pm$ 1.595\\ \hline 
-			[20, 50] & 0.658 $\pm$ 0.013 & 10.300 $\pm$ 0.181 &24.088 $\pm$ 0.415\\ \hline 
-			[7, 50] & 0.582 $\pm$ 0.035 & 10.052 $\pm$ 0.428 &25.073 $\pm$ 0.894\\ \hline 
-		\end{tabular}
-	\end{center}
-	\caption{Values of the parameters obtained in the MC data for different $p_T$ intervals. These same parameters are used for the collision data.}
-	\label{table:mc_ptbins}
-\end{table}
-
-%Similarly, the influence of the rapidity $|y|$ of $B_0^s$ is investigated. The boundaries for the bins were set at $[0, 0.5, 1, 1.6, 2.4]$ GeV and the entire region for the transverse momentum is considered, $7.0$ GeV $\leq p_T < 50.0$ GeV. Fig. \ref{fig:massMC_ybins} shows the spectrum for MC data and fig. \ref{fig:mass_ybins} for the collision data. Table \ref{table:mc_ybins} shows the parameters obtained with the MC data.
-
-Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the MC simulation and collision data, considering the full region for $p_T$. The final value for the invariant mass is $M(B^0_s) = (5367.02 \pm 0.86) \text{ MeV}$. A comparison with the value reported in the PDG of $(5366.88 \pm 0.14)$ MeV \cite{pdgstrange}, indicates that this result is consistent and was measured correctly.
-
-\cleardoublepage
 
 \begin{figure*}
 	\centering
@@ -146,8 +121,79 @@ Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the
 	\label{fig:massMC_ptbins}
 \end{figure*}
 
+\begin{table}[htp!]
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{$\mathbf{p_T}$ bin} & $\mathbf{f_s}$ & \textbf{$\mathbf{\sigma_1}$ (MeV)} & \textbf{$\mathbf{\sigma_2}$ (MeV)}\\ \hline
+			[7, 10) & 0.423 $\pm$ 0.013 & 11.366 $\pm$ 0.290 &28.392 $\pm$ 0.358\\ \hline 
+			[10, 15) & 0.528 $\pm$ 0.064 & 9.578 $\pm$ 0.841 &24.700 $\pm$ 1.577\\ \hline 
+			[15, 20) & 0.479 $\pm$ 0.084 & 8.439 $\pm$ 1.014 &21.242 $\pm$ 1.550\\ \hline 
+			[20, 50) & 0.658 $\pm$ 0.003 & 10.300 $\pm$ 0.036 &24.081 $\pm$ 0.083\\ \hline 
+			[7, 50) & 0.582 $\pm$ 0.035 & 10.054 $\pm$ 0.429 &25.079 $\pm$ 0.895\\ \hline 
+		\end{tabular}
+	\end{center}
+	\caption{Values of the parameters obtained in the MC data for different $p_T$ intervals. These same parameters are used for the collision data.}
+	\label{table:mc_ptbins}
+\end{table}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.0_0.5.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_0.5_1.0.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.0_1.6.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFitMC_best1_ybins_1.6_2.4.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$. Four intervals for the rapidity $|y|(B^0_s)$ have been considered and the data corresponds to the MC simulation.}
+	\label{fig:massMC_ybins}
+\end{figure*}
+
+\begin{table}[htp!]
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{$\mathbf{|y|}$ bin} & $\mathbf{f_s}$ & \textbf{$\mathbf{\sigma_1}$ (MeV)} & \textbf{$\mathbf{\sigma_2}$ (MeV)}\\ \hline
+			[0.0, 0.5) & 0.844 $\pm$ 0.010 & 8.062 $\pm$ 0.106 &18.011 $\pm$ 0.467\\ \hline 
+			[0.5, 1.0) & 0.847 $\pm$ 0.005 & 10.299 $\pm$ 0.072 &25.998 $\pm$ 0.366\\ \hline 
+			[1.0, 1.6) & 0.667 $\pm$ 0.095 & 14.148 $\pm$ 0.990 &26.857 $\pm$ 2.037\\ \hline 
+			[1.6, 2.4) & 0.243 $\pm$ 0.106 & 11.940 $\pm$ 2.706 &27.133 $\pm$ 1.648\\ \hline 
+			[0.0, 2.4) & 0.582 $\pm$ 0.035 & 10.052 $\pm$ 0.428 &25.073 $\pm$ 0.894\\ \hline 			
+		\end{tabular}
+	\end{center}
+	\caption{Values of the parameters obtained in the MC data for different $|y|$ intervals. These same parameters are used for the collision data.}
+	\label{table:mc_ybins}
+\end{table}
+
+Figs. \ref{fig:mass_ptbins} show the mass distributions for the collision dataset and includes the fit for the combinational background. The parameter $\sigma$ shown in the figures was calculated by adding $\sigma_1$ and $\sigma_2$ from eq. \ref{eq:sigpdf} in the following manner:
+
+\begin{equation}
+	\sigma = \sqrt{f_s \sigma_1^2 + (1-f_s)\sigma_2^2}
+\end{equation}
 
 
+Finally, Fig. \ref{fig:mass} shows the invariant mass distributions for both the MC simulation and collision data, considering $ 7 \leq p_T < 50$ and $|y| < 2.4$. The final value for the invariant mass is $M(B^0_s) = (5367.02 \pm 0.86) \text{ MeV}$. A comparison with the value reported in the PDG of $(5366.88 \pm 0.14)$ MeV \cite{pdgstrange}, indicates that this result is consistent and was measured correctly.
+
+\cleardoublepage
 \begin{figure}[htp!]
 	\centering
 	\centering
@@ -176,6 +222,38 @@ Finally, fig. \ref{fig:mass} shows the invariant mass distributions for both the
 	\end{subfigure}
 	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$. Four intervals for the transverse momentum $p_T(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
 	\label{fig:mass_ptbins}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
+	
+\end{figure}
+
+\begin{figure}[htp!]
+	\centering
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_0.0_0.5.PDF}
+		\caption{}%
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_0.5_1.0.PDF}
+		\caption{}%
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_1.0_1.6.PDF}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{MainContent/Figs/mass/mass_BsFit_ybins_1.6_2.4.PDF}
+		\caption{}%
+	\end{subfigure}
+	\caption{Invariant mass spectra for $B^0_s$ meson reconstructed from the combined system $J/\psi \phi$. Four intervals for the rapidity $|y|(B^0_s)$ have been considered and the data corresponds to the p-Pb collision.}
+	\label{fig:mass_ybins}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%second row
 	
 \end{figure}
